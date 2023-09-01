@@ -1,8 +1,16 @@
+/* Fundamental setup */
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(228, 227, 224);
 }
 
-/* "Catalogue Item" is the poster as a concrete object. */
+/* "Catalogue Item" is the poster as a concrete object.
+Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
     min-width: 200px;
@@ -12,7 +20,7 @@ body {
     border: solid black 5px;
     border-radius: 10px;
     background-color: white;
-    font-family: 'Arima Koshi', Courier, monospace;
+    font-family: 'Kurale', serif;
     padding: 10px;
     text-align: center;
     justify-content: center;
@@ -21,9 +29,9 @@ body {
     transition: all 0.4s ease;
 }
 
-/* "Hoverable Catalogue Item" makes up the visual communication for the 'netflix' catalogue section */
+/* "Hoverable Catalogue Item" makes up the visual communication for the 'Netflix' catalogue section */
 .hoverable_catalogue_item:hover {
-    color: red;
+    color: brown;
     width: 220px;
     height: 550px;
 }
@@ -32,7 +40,7 @@ body {
     height: 500px;
  }
 
- /* To ensure that the 'netflix' catalogue isn't suffocating */
+ /* To ensure that the 'Netflix' catalogue isn't suffocating */
 td {
     padding: 15px;
 }
@@ -57,13 +65,13 @@ li {
     /*border: solid black 4px;*/
 }
 list {
-    font-family: 'Arima Koshi', Courier, monospace;
+    font-family: 'Kurale', serif;
     width: 100%;
     height: 100%;
 }
 
 /* Enableing the intended UI for the paragraph and recipe section */
-table {
+/* table {
     width: 100%;
     height: 100%;
     border: none black 1px;
@@ -76,22 +84,22 @@ tr {
 td {
     height: 100%;
     border: none black 1px;
-}
+} */
 
 /* TEST SECTION Alternative to table method */
 section {
-/*    border: 1px solid black;*/
     display: flex;
-    margin: 30px;
+    flex-direction: row;
+    margin: 1vh;
 }
 .ingredients_div {
     text-align: left;
     align-items: center;
-/*    border: 1px solid black;*/
     width: 200px;
     height: 500px;
-    margin: 10px;
+    margin: 2vh;
+    padding: 2vh;
 }
-section {
-    margin: 50px;
+a {
+    margin: 1vh;
 }

@@ -1,9 +1,18 @@
+ /* Fundamental setup */
+ @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(228, 227, 224);
 }
 
+/* Style for the Header 1
+Featuring: The welcome sign */
 h1 {
-    font-family: 'Arima Koshi', Courier, monospace;
+    font-family: 'Kurale', serif;
     width: 70%;
     border: solid black 3px;
     border-radius: 5px;
@@ -14,19 +23,17 @@ h1 {
     margin-top: 100px;
 }
 
-hr {
-    width: 50%
-}
-
+/* Header 2
+Featuring: "All Recipes", and "Find me" */
 h2 {
-    font-family: 'Arima Koshi', Courier, monospace;
+    font-family: 'Kurale', serif;
     margin-left: 5%;
     margin-top: 100px;
     text-align: left;
 }
 
 nav {
-    font-family: 'Arima Koshi', Courier, monospace;
+    font-family: 'Kurale', serif;
     padding: 10px;
     text-align: center;
 }
@@ -39,4 +46,30 @@ p {
 iframe {
     border: none;
     overflow: scroll;
+}
+
+h3 {
+    font-family: 'Kurale', serif;
+    text-align: center;
+}
+
+footer > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    letter-spacing: 2vh;
+    font-size: 4vh;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    background-color: white;
+}
+
+i {
+    color: black;
+}
+i:hover {
+    color: brown;
 }
