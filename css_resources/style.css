@@ -15,6 +15,8 @@ Featuring: The welcome sign */
     font-family: 'Kurale', serif;
     width: 70%;
     border: solid black 3px;
+    background-color: white;
+    box-shadow: 0 1px 8px rgb(78, 77, 83);
     border-radius: 5px;
     padding: 60px;
     text-align: center;
@@ -122,6 +124,7 @@ Featuring: The 'Netflix' catalogue */
     color: brown;
     min-width: 220px;
     min-height: 550px;
+    box-shadow: 0 10px 18px rgb(78, 77, 83);
 }
 .hoverable_catalogue_item:not(:hover) {
     width: 200px;
@@ -154,14 +157,14 @@ h3 {
     flex-direction: row;
     margin: 8vh;
 }
-#ingredients_div {
+#ingredients_div > ul {
     font-family: 'Kurale', serif;
     text-align: left;
     align-items: center;
     width: 200px;
     height: 500px;
-    margin-left: 2vh;
-    padding: 2vh;
+    margin-left: 3vh;
+    padding-left: 3vh;
     list-style-type: disc;
 }
 a {
