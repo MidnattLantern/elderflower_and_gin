@@ -20,16 +20,15 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    
 }
-
 
 /* the logo home button in the top left corner */
 .logo {
     font-family: 'Kurale', serif;
     position: fixed;
     margin-left: 2vh;
-    padding: 2vh;
+    
     z-index: 99;
 }
 .logo > a {
@@ -93,8 +92,7 @@ i:hover {
     color: brown;
 }
 
-/* See if both styles can share the same css */
-
+/* unifying both css */
 
 /* "Catalogue Item" is the poster as a concrete object.
 Featuring: The 'Netflix' catalogue */
@@ -149,17 +147,12 @@ li {
     padding-left: 40px;
     padding-top: 20%
 }
-list {
-    font-family: 'Kurale', serif;
-    width: 100%;
-    height: 100%;
-}
 
 /* 'Netflix* styles setup */
-section {
+.netflix {
     display: flex;
     flex-direction: row;
-    margin: 1vh;
+
 }
 .ingredients_div {
     text-align: left;
