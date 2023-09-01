@@ -9,6 +9,21 @@ body {
     background-color: rgb(228, 227, 224);
 }
 
+/* the home button in the top left corner */
+section {
+    font-family: 'Kurale', serif;
+    position: fixed;
+    margin-left: 2vh;
+    padding: 2vh;
+}
+section > a {
+    color: black;
+    text-decoration: none;
+}
+section > a:hover {
+    color: brown;
+}
+
 /* Style for the Header 1
 Featuring: The welcome sign */
 h1 {
@@ -20,7 +35,7 @@ h1 {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 /* Header 2
@@ -53,7 +68,7 @@ h3 {
     text-align: center;
 }
 
-footer > ul {
+list > ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -62,11 +77,12 @@ footer > ul {
     color: black;
 }
 
+/* the footer
+featuring my socials */
 footer {
     width: 100%;
     background-color: white;
 }
-
 i {
     color: black;
 }

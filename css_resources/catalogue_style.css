@@ -61,8 +61,6 @@ li {
     align-items: center;
     padding-left: 40px;
     padding-top: 20%
-    /*width: 50%;*/
-    /*border: solid black 4px;*/
 }
 list {
     font-family: 'Kurale', serif;
@@ -70,23 +68,7 @@ list {
     height: 100%;
 }
 
-/* Enableing the intended UI for the paragraph and recipe section */
-/* table {
-    width: 100%;
-    height: 100%;
-    border: none black 1px;
-}
-tr {
-    width: 100px;
-    height: 100%;
-    border: none black 1px;
-}
-td {
-    height: 100%;
-    border: none black 1px;
-} */
-
-/* TEST SECTION Alternative to table method */
+/* 'Netflix* styles setup */
 section {
     display: flex;
     flex-direction: row;
@@ -101,5 +83,5 @@ section {
     padding: 2vh;
 }
 a {
-    margin: 1vh;
+    margin: 2vh;
 }
