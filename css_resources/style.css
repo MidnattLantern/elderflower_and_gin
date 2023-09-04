@@ -12,13 +12,14 @@ body {
 /* Style for the Header 1
 Featuring: The welcome sign */
 #welcome_sign {
+    font-size: 4vw;
     font-family: 'Kurale', serif;
-    width: 70%;
+    width: 50%;
     border: solid black 3px;
     background-color: white;
     box-shadow: 0 1px 8px rgb(78, 77, 83);
     border-radius: 5px;
-    padding: 60px;
+    padding: 6vh;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -32,7 +33,7 @@ Featuring: The welcome sign */
     /* Any sign, such as the welcome sign must have an margin of 4vh */
     top: 2vh;
     z-index: 99;
-    font-size: x-large;
+    font-size: 3vh;
 }
 .logo > a {
     color: black;
@@ -42,12 +43,22 @@ Featuring: The welcome sign */
     color: brown;
 }
 
+/* Name of recipe when you click the poster. Intended for <h1> */
+#recipe_header {
+    text-align: center;
+    margin-top: 8vh;
+    font-family: 'Kurale', serif;
+    font-size: 6vh;
+    text-decoration: underline;
+}
+
 /* Header 2
 Featuring: "All Recipes", and "Find me" */
 h2 {
     font-family: 'Kurale', serif;
     margin-left: 8vh;
-    margin-top: 100px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
     text-align: left;
 }
 
@@ -66,9 +77,9 @@ iframe {
     overflow: scroll;
 }
 
+/* social media */
 #socials > ul {
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-bottom: 6vh;
     display: flex;
     flex-direction: row;
     list-style-type: none;
@@ -76,7 +87,6 @@ iframe {
     font-size: 4vh;
     color: black;
 }
-
 #my_social_media {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
@@ -104,6 +114,8 @@ i:hover {
 Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
+    width: 200px;
+    height: 500px;
     min-width: 200px;
     min-height: 500px;
     max-width: 220px;
@@ -140,22 +152,36 @@ td {
 h3 {
     font-size: large;
     text-decoration: underline;
-    padding-left: 20px;
-    padding-top: 80px;
-}
-.paragraph {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    align-items: center;
-    padding-left: 40px;
-    padding-top: 20%
+    padding-left: 5vh;
+    padding-top: 8vh;
 }
 
-/* 'Netflix* styles setup */
+/* @media screen (min-width: 668px) {
+
+} */
+
+.test {
+    display: flex;
+
+}
+
+#paragraph {
+    border-radius: 1vh;
+    box-shadow: 0 1px 8px rgb(78, 77, 83);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 8vh;
+    margin-right: 15vh;
+    margin-bottom: auto;
+    padding: 3vh;
+}
+
+/* 'Netflix* styles setup, used only within a recipe page*/
 .netflix {
     display: flex;
     flex-direction: row;
-    margin: 8vh;
+    margin-top: 3vh;
+    margin-left: 10%;
 }
 #ingredients_div > ul {
     font-family: 'Kurale', serif;
@@ -163,10 +189,11 @@ h3 {
     align-items: center;
     width: 200px;
     height: 500px;
-    margin-left: 3vh;
-    padding-left: 3vh;
+    margin-left: 4vh;
+    padding-left: 4vh;
     list-style-type: disc;
 }
 a {
     margin: 2vh;
 }
+
