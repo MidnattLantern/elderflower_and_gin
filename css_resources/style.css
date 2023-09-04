@@ -12,34 +12,25 @@ body {
 
 /* Style for the Header 1
 Featuring: The welcome sign */
-/* small phone(s) */ @media screen and (max-width: 375px) {
+/* phone(s) */ @media screen and (max-width: 768px) {
     #welcome_sign {
         font-size: 30px;
-        width: 300vw;
+        width: auto;
         padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 }
-/* big phone(s)*/ @media screen and (min-width: 375px) {
-    #welcome_sign {
-        font-size: 30px;
-        width: 300px;
-        padding: 10px;
-    }
-}
-/* tablet(s) */ @media screen and (min-width: 768px) {
+/* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
     #welcome_sign {
         font-size: 50px;
         width: 700px;
         padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 } 
-/* computer(s) */ @media screen and (min-width: 1200px) {
-    #welcome_sign {
-        font-size: 50px;
-        width: 700px;
-        padding: 30px;
-    }
-}
+
 #welcome_sign {
     font-family: 'Kurale', serif;
     border: solid black 3px;
@@ -47,9 +38,8 @@ Featuring: The welcome sign */
     box-shadow: 0 1px 8px rgb(78, 77, 83);
     border-radius: 5px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 8vh;
+    transition: all 0.4s ease;
 }
 /* END for Header 1 */
 
@@ -144,12 +134,7 @@ i:hover {
 Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
-    width: 200px;
-    height: 500px;
-    min-width: 200px;
-    min-height: 500px;
-    max-width: 220px;
-    max-height: 550px;
+
     border: solid black 5px;
     border-radius: 10px;
     background-color: white;
@@ -160,10 +145,30 @@ Featuring: The 'Netflix' catalogue */
     display: flex;
     transition: all 0.4s ease;
 }
+/* phone(s) */ @media screen and (max-width: 1024px) {
+.catalogue_item {
+    width: 150px;
+    height: 375px;
+    min-width: 150px;
+    min-height: 375px;
+    max-width: 165px;
+    max-height: 412.5px;
+}
+}
+/* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
+.catalogue_item {
+    width: 200px;
+    height: 500px;
+    min-width: 200px;
+    min-height: 500px;
+    max-width: 220px;
+    max-height: 550px;
+    }
+}
+
 td {
     padding: 15px;
 }
-
 /* END of the 'Netflix' catalogue item */
 
 /* "Hoverable Catalogue Item" makes up the visual communication for the 'Netflix' catalogue section */
@@ -190,11 +195,33 @@ h3 {
     box-shadow: 0 1px 8px rgb(78, 77, 83);
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    margin-top: 8vh;
-    margin-right: 15vh;
-    margin-bottom: auto;
     padding: 3vh;
 }
+
+/* @media screen and (max-width: 375px) {
+    #paragraph {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+@media screen and (min-width: 375px) {
+    #paragraph {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    #paragraph {
+        margin-top: 3px;
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #paragraph {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+} */
 /* END */
 
 /* 'Netflix' styles setup
@@ -203,41 +230,44 @@ Featuring the scrolling catalogues */
     display: flex;
     flex-direction: row;
     margin-top: 3vh;
-    margin-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* END for Netflix*/
 
 /* Featuring each recipe page */
 @media screen and (max-width: 375px) {
-    .drink_paragraph_location {
+    #drink_paragraph_location {
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 }
 @media screen and (min-width: 375px) {
-    .drink_paragraph_location {
+    #drink_paragraph_location {
         display: flex;
         flex-direction: column;
-        margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 45px;
+        margin-right: 45px;
     }
 }
-@media screen and (min-width: 768px) {
-    .drink_paragraph_location {
+@media screen and (min-width: 1024px) {
+    #drink_paragraph_location {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
         margin-left: 30px;
+        margin-right: auto;
     }
 }
 @media screen and (min-width: 1200px) {
-    .drink_paragraph_location {
+    #drink_paragraph_location {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
         margin-left: 30px;
+        margin-right: auto;
     }
 }
 
@@ -245,12 +275,11 @@ Featuring the scrolling catalogues */
     font-family: 'Kurale', serif;
     text-align: left;
     align-items: center;
-    width: 200px;
-    height: 500px;
     margin-left: 4vh;
     padding-left: 4vh;
     list-style-type: disc;
 }
+
 a {
     margin: 2vh;
 }
