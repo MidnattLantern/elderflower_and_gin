@@ -1,6 +1,6 @@
  /* Fundamental setup */
  @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
-  * {
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -8,6 +8,7 @@
 body {
     background-color: rgb(228, 227, 224);
 }
+/* END for setup*/
 
 /* Style for the Header 1
 Featuring: The welcome sign */
@@ -50,6 +51,7 @@ Featuring: The welcome sign */
     margin-right: auto;
     margin-top: 8vh;
 }
+/* END for Header 1 */
 
 /* the logo home button in the top left corner */
 #logo {
@@ -67,8 +69,10 @@ Featuring: The welcome sign */
 .logo > a:hover {
     color: brown;
 }
+/* END for the logo */
 
-/* Name of recipe when you click the poster. Intended for <h1> */
+/* Name of recipe when you click the poster.
+Featuring <h1> at the catalogues.html(s) */
 #recipe_header {
     text-align: center;
     margin-top: 8vh;
@@ -76,6 +80,7 @@ Featuring: The welcome sign */
     font-size: 6vh;
     text-decoration: underline;
 }
+/* END of name */
 
 /* Header 2
 Featuring: "All Recipes", and "Find me" */
@@ -86,6 +91,7 @@ h2 {
     margin-bottom: 2vh;
     text-align: left;
 }
+/* END for h2 style */
 
 /* navigation bar */
 nav {
@@ -96,6 +102,7 @@ nav {
 p {
     font-family: Arial, Helvetica, sans-serif;
 }
+/* END for navigation bar */
 
 /* Enabling digital horizontal scroll bar to make the 'netflix' catalogue friendly for mouse users */
 iframe {
@@ -103,7 +110,8 @@ iframe {
     overflow: scroll;
 }
 
-/* social media */
+/* Footer and socials
+Featuring social media section */
 #socials > ul {
     padding-bottom: 6vh;
     display: flex;
@@ -120,9 +128,6 @@ iframe {
     position: relative;
     top: 1vh;
 }
-
-/* the footer
-featuring my socials */
 footer {
     width: 100%;
     background-color: white;
@@ -133,8 +138,9 @@ i {
 i:hover {
     color: brown;
 }
+/* END for footer and socials */
 
-/* "Catalogue Item" is the poster as a concrete object.
+/* Catalogue Item
 Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
@@ -154,6 +160,11 @@ Featuring: The 'Netflix' catalogue */
     display: flex;
     transition: all 0.4s ease;
 }
+td {
+    padding: 15px;
+}
+
+/* END of the 'Netflix' catalogue item */
 
 /* "Hoverable Catalogue Item" makes up the visual communication for the 'Netflix' catalogue section */
 .hoverable_catalogue_item:hover {
@@ -167,11 +178,6 @@ Featuring: The 'Netflix' catalogue */
     height: 500px;
  }
 
- /* To ensure that the 'Netflix' catalogue isn't suffocating */
-td {
-    padding: 15px;
-}
-
 /* Styling the paragraph and recipe section(s) */
 h3 {
     font-size: large;
@@ -179,16 +185,6 @@ h3 {
     padding-left: 5vh;
     padding-top: 8vh;
 }
-
-/* @media screen (min-width: 668px) {
-
-} */
-
-.test {
-    display: flex;
-
-}
-
 #paragraph {
     border-radius: 1vh;
     box-shadow: 0 1px 8px rgb(78, 77, 83);
@@ -199,14 +195,52 @@ h3 {
     margin-bottom: auto;
     padding: 3vh;
 }
+/* END */
 
-/* 'Netflix* styles setup, used only within a recipe page*/
+/* 'Netflix' styles setup
+Featuring the scrolling catalogues */
 .netflix {
     display: flex;
     flex-direction: row;
     margin-top: 3vh;
     margin-left: 10%;
 }
+/* END for Netflix*/
+
+/* Featuring each recipe page */
+@media screen and (max-width: 375px) {
+    .drink_paragraph_location {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 375px) {
+    .drink_paragraph_location {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .drink_paragraph_location {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .drink_paragraph_location {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+}
+
 #ingredients_div > ul {
     font-family: 'Kurale', serif;
     text-align: left;
@@ -220,4 +254,4 @@ h3 {
 a {
     margin: 2vh;
 }
-
+/* END */
