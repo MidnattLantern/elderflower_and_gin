@@ -95,10 +95,10 @@ p {
 /* END for navigation bar */
 
 /* Enabling digital horizontal scroll bar to make the 'netflix' catalogue friendly for mouse users */
+
 iframe {
     border: none;
     overflow: scroll;
-    margin-left: 60px;
     height: 610px;
     width: 100%;
 }
@@ -155,8 +155,6 @@ Featuring: The 'Netflix' catalogue */
     min-height: 375px;
     max-width: 150px;
     max-height: 375px;
-/*    max-width: 165px;
-    max-height: 412.5px; */
 }
 }
 /* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
