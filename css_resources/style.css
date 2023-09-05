@@ -10,6 +10,10 @@ body {
 }
 /* END for setup*/
 
+h3 {
+    font-family: 'Kurale', serif;
+}
+
 /* Style for the Header 1
 Featuring: The welcome sign */
 /* phone(s) */ @media screen and (max-width: 768px) {
@@ -29,7 +33,16 @@ Featuring: The welcome sign */
         margin-left: auto;
         margin-right: auto;
     }
-} 
+}
+/* END for header 1 */
+
+/* about us paragraph*/
+#about_us > p {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* END for about us*/
 
 #welcome_sign {
     font-family: 'Kurale', serif;
@@ -313,3 +326,12 @@ a {
     margin: 2vh;
 }
 /* END */
+
+#send_recipe {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#send_recipe > h2 {
+    margin-left: 0px;
+}
