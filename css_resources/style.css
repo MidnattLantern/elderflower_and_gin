@@ -98,6 +98,9 @@ p {
 iframe {
     border: none;
     overflow: scroll;
+    margin-left: 60px;
+    height: 610px;
+    width: 100%;
 }
 
 /* Footer and socials
@@ -134,7 +137,6 @@ i:hover {
 Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
-
     border: solid black 5px;
     border-radius: 10px;
     background-color: white;
@@ -151,8 +153,10 @@ Featuring: The 'Netflix' catalogue */
     height: 375px;
     min-width: 150px;
     min-height: 375px;
-    max-width: 165px;
-    max-height: 412.5px;
+    max-width: 150px;
+    max-height: 375px;
+/*    max-width: 165px;
+    max-height: 412.5px; */
 }
 }
 /* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
@@ -172,16 +176,33 @@ td {
 /* END of the 'Netflix' catalogue item */
 
 /* "Hoverable Catalogue Item" makes up the visual communication for the 'Netflix' catalogue section */
+/* phone(s) */ @media screen and (max-width: 1024px) {
+    .hoverable_catalogue_item:hover {
+        min-width: 165px;
+        min-height: 412.5px;
+    }
+    .hoverable_catalogue_item:not(:hover) {
+        width: 200px;
+        height: 500px;
+    }
+}
+    /* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
+    .hoverable_catalogue_item:hover {
+        min-width: 220px;
+        min-height: 550px;
+        }
+    .hoverable_catalogue_item:not(:hover) {
+        width: 200px;
+        height: 500px;
+    }
+}
 .hoverable_catalogue_item:hover {
     color: brown;
-    min-width: 220px;
-    min-height: 550px;
+/*    min-width: 220px;
+    min-height: 550px; */
     box-shadow: 0 10px 18px rgb(78, 77, 83);
 }
-.hoverable_catalogue_item:not(:hover) {
-    width: 200px;
-    height: 500px;
- }
+
 
 /* Styling the paragraph and recipe section(s) */
 h3 {
@@ -192,12 +213,12 @@ h3 {
 }
 #paragraph {
     border-radius: 1vh;
-    box-shadow: 0 1px 8px rgb(78, 77, 83);
+/*    box-shadow: 0 1px 8px rgb(78, 77, 83); */
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     padding: 3vh;
+    margin: 50px;
 }
-
 /* @media screen and (max-width: 375px) {
     #paragraph {
         margin-top: 5px;
@@ -209,19 +230,19 @@ h3 {
         margin-top: 5px;
         margin-left: 5px;
     }
-}
-@media screen and (min-width: 1024px) {
+} */
+@media screen and (min-width: 768px) {
     #paragraph {
-        margin-top: 3px;
-        margin-left: 30px;
+        margin-right: 180px;
+        margin-left: 180px;
     }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
     #paragraph {
         margin-top: 30px;
         margin-left: 30px;
     }
-} */
+}
 /* END */
 
 /* 'Netflix' styles setup
@@ -230,6 +251,7 @@ Featuring the scrolling catalogues */
     display: flex;
     flex-direction: row;
     margin-top: 3vh;
+    margin-bottom: 3vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -239,17 +261,17 @@ Featuring the scrolling catalogues */
 @media screen and (max-width: 375px) {
     #drink_paragraph_location {
         display: flex;
-        flex-direction: column;
+        flex-direction: column; /*
         margin-left: 45px;
-        margin-right: 45px;
+        margin-right: 45px; */
     }
 }
 @media screen and (min-width: 375px) {
     #drink_paragraph_location {
         display: flex;
         flex-direction: column;
-        margin-left: 45px;
-        margin-right: 45px;
+        /* margin-left: 45px;
+        margin-right: 45px; */
     }
 }
 @media screen and (min-width: 1024px) {
@@ -257,8 +279,8 @@ Featuring the scrolling catalogues */
         display: flex;
         flex-direction: row;
         margin-top: 30px;
-        margin-left: 30px;
-        margin-right: auto;
+        margin-left: 120px; /*
+        margin-right: 120px; */
     }
 }
 @media screen and (min-width: 1200px) {
@@ -266,8 +288,8 @@ Featuring the scrolling catalogues */
         display: flex;
         flex-direction: row;
         margin-top: 30px;
-        margin-left: 30px;
-        margin-right: auto;
+        margin-left: 120px; /*
+        margin-right: 120px; */
     }
 }
 
