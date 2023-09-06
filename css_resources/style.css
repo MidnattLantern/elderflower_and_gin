@@ -64,6 +64,9 @@ Featuring: The welcome sign */
     top: 2vh;
     z-index: 99;
     font-size: 3vh;
+    border: solid black 1px;
+    border-radius: 3px;
+    background-color: white;
 }
 .logo > a {
     color: black;
@@ -152,9 +155,9 @@ i:hover {
 Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
-    border: solid black 5px;
+/*    border: solid black 5px; */
     border-radius: 10px;
-    background-color: white;
+/*    background-color: white; */
     font-family: 'Kurale', serif;
     text-align: center;
     justify-content: center;
