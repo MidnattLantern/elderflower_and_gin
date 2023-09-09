@@ -6,45 +6,24 @@
     box-sizing: border-box;
 }
 body {
-    background-color: rgb(228, 227, 224);
+    background-color: #ffffff;
 }
-/* END for setup*/
 
 h3 {
     font-family: 'Kurale', serif;
 }
 
-/* Style for the Header 1
-Featuring: The welcome sign */
-/* phone(s) */ @media screen and (max-width: 768px) {
-    #welcome_sign {
-        font-size: 30px;
-        width: auto;
-        padding: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-/* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
-    #welcome_sign {
-        font-size: 50px;
-        width: 700px;
-        padding: 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-/* END for header 1 */
+
 
 /* about us paragraph*/
-#about_us > p {
+.about_us > p {
     margin-left: 15%;
     margin-right: 15%;
 }
 
 /* END for about us*/
 
-#welcome_sign {
+.welcome_sign {
     font-family: 'Kurale', serif;
     border: solid black 3px;
     background-color: white;
@@ -57,7 +36,7 @@ Featuring: The welcome sign */
 /* END for Header 1 */
 
 /* the logo home button in the top left corner */
-#logo {
+.logo {
     font-family: 'Kurale', serif;
     position: fixed;
     /* Any sign, such as the welcome sign must have an margin of 4vh */
@@ -92,10 +71,8 @@ Featuring <h1> at the catalogues.html(s) */
 Featuring: "All Recipes", and "Find me" */
 h2 {
     font-family: 'Kurale', serif;
-    margin-left: 8vh;
-    margin-top: 3vh;
     margin-bottom: 2vh;
-    text-align: left;
+    text-align: center;
 }
 /* END for h2 style */
 
@@ -117,100 +94,42 @@ iframe {
     overflow: scroll;
     width: 100%;
 }
-/* phone(s) */ @media screen and (max-width: 768px) {
-    iframe {
-    height: 460px;    
-    }
-}
-/* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
-    iframe {
-    height: 610px;
-    }
-} 
 
-/* Footer and socials
-Featuring social media section */
-#socials > ul {
+.text_center {
+    text-align: center !important;
+}
+
+.socials {
     padding-bottom: 6vh;
-    display: flex;
-    flex-direction: row;
     list-style-type: none;
     letter-spacing: 2vh;
     font-size: 4vh;
-    color: black;
+    text-align: center;
+    display: flex;
+    flex: row;
+    justify-content: center;
 }
+
+
 footer {
     width: 100%;
-    background-color: white;
+    background-color: #DFCFBF;
 }
 i {
     color: black;
 }
 i:hover {
-    color: brown;
+    color: #9D5067;
 }
-/* END for footer and socials */
 
-/* Catalogue Item
-Featuring: The 'Netflix' catalogue */
+
 .catalogue_item {
     z-index: 1;
-/*    border: solid black 5px; 
     border-radius: 10px;
-    background-color: white; 
-    font-family: 'Kurale', serif;
-    text-align: center; */
     justify-content: center;
     align-items: center;
     display: flex;
     transition: all 0.4s ease;
-}
-/* phone(s) */ @media screen and (max-width: 1024px) {
-.catalogue_item {
-    width: 150px;
-    height: 375px;
-    min-width: 150px;
-    min-height: 375px;
-    max-width: 150px;
-    max-height: 375px;
-}
-}
-/* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
-.catalogue_item {
-    width: 200px;
-    height: 500px;
-    min-width: 200px;
-    min-height: 500px;
-    max-width: 220px;
-    max-height: 550px;
-    }
-}
-
-td {
-    padding: 15px;
-}
-/* END of the 'Netflix' catalogue item */
-
-/* "Hoverable Catalogue Item" makes up the visual communication for the 'Netflix' catalogue section */
-/* phone(s) */ @media screen and (max-width: 1024px) {
-    .hoverable_catalogue_item:hover {
-        min-width: 165px;
-        min-height: 412.5px;
-    }
-    .hoverable_catalogue_item:not(:hover) {
-        width: 200px;
-        height: 500px;
-    }
-}
-    /* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
-    .hoverable_catalogue_item:hover {
-        min-width: 220px;
-        min-height: 550px;
-        }
-    .hoverable_catalogue_item:not(:hover) {
-        width: 200px;
-        height: 500px;
-    }
 }
 .hoverable_catalogue_item:hover {
 /*    min-width: 220px;
@@ -234,33 +153,109 @@ td {
     content: url(../resources/sparkling_liquid_paint.png);
 }
 
-/* Styling the paragraph and recipe section(s) */
 h3 {
     font-size: large;
     text-decoration: underline;
     padding-left: 5vh;
     padding-top: 8vh;
 }
-#paragraph {
+.paragraph {
     border-radius: 1vh;
-/*    box-shadow: 0 1px 8px rgb(78, 77, 83); */
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     padding: 3vh;
     margin: 50px;
 }
-/* @media screen and (max-width: 375px) {
-    #paragraph {
-        margin-top: 5px;
-        margin-left: 5px;
+
+.catalogue_alignment {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ingredients_div > ul {
+    font-family: 'Kurale', serif;
+    text-align: left;
+    align-items: center;
+    margin-left: 4vh;
+    padding-left: 4vh;
+    list-style-type: disc;
+}
+
+a {
+    margin: 2vh;
+}
+
+.send_recipe {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.send_recipe > h2 {
+    margin-left: 0px;
+}
+
+td {
+    padding: 15px;
+}
+
+/* phone(s) */ @media screen and (max-width: 768px) {
+    iframe {
+        height: 460px;    
+        }
+    }
+    /* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
+        iframe {
+        height: 610px;
+        }
+    } 
+
+/* phone(s) */ @media screen and (max-width: 1024px) {
+.catalogue_item {
+    width: 150px;
+    height: 375px;
+    min-width: 150px;
+    min-height: 375px;
+    max-width: 150px;
+    max-height: 375px;
+}
+}
+/* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
+.catalogue_item {
+    width: 200px;
+    height: 500px;
+    min-width: 200px;
+    min-height: 500px;
+    max-width: 220px;
+    max-height: 550px;
     }
 }
-@media screen and (min-width: 375px) {
-    #paragraph {
-        margin-top: 5px;
-        margin-left: 5px;
+
+
+/* phone(s) */ @media screen and (max-width: 1024px) {
+    .hoverable_catalogue_item:hover {
+        min-width: 165px;
+        min-height: 412.5px;
     }
-} */
+    .hoverable_catalogue_item:not(:hover) {
+        width: 200px;
+        height: 500px;
+    }
+}
+    /* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
+    .hoverable_catalogue_item:hover {
+        min-width: 220px;
+        min-height: 550px;
+        }
+    .hoverable_catalogue_item:not(:hover) {
+        width: 200px;
+        height: 500px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     #paragraph {
         margin-right: 180px;
@@ -274,17 +269,6 @@ h3 {
     }
 }
 
-/* Behaviour of the catalogue */
-.catalogue_alignment {
-    display: flex;
-    flex-direction: row;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Featuring each recipe page */
 @media screen and (max-width: 375px) {
     #drink_paragraph_location {
         display: flex;
@@ -320,24 +304,21 @@ h3 {
     }
 }
 
-#ingredients_div > ul {
-    font-family: 'Kurale', serif;
-    text-align: left;
-    align-items: center;
-    margin-left: 4vh;
-    padding-left: 4vh;
-    list-style-type: disc;
+/* phone(s) */ @media screen and (max-width: 768px) {
+    .welcome_sign {
+        font-size: 30px;
+        width: auto;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
-
-a {
-    margin: 2vh;
-}
-
-#send_recipe {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-#send_recipe > h2 {
-    margin-left: 0px;
+/* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
+    .welcome_sign {
+        font-size: 50px;
+        width: 700px;
+        padding: 30px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
