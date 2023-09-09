@@ -155,11 +155,11 @@ i:hover {
 Featuring: The 'Netflix' catalogue */
 .catalogue_item {
     z-index: 1;
-    border: solid black 5px; 
+/*    border: solid black 5px; 
     border-radius: 10px;
     background-color: white; 
     font-family: 'Kurale', serif;
-    text-align: center;
+    text-align: center; */
     justify-content: center;
     align-items: center;
     display: flex;
@@ -213,16 +213,26 @@ td {
     }
 }
 .hoverable_catalogue_item:hover {
-    color: brown;
 /*    min-width: 220px;
     min-height: 550px; */
     box-shadow: 0 10px 18px rgb(78, 77, 83);
 }
 
-.hornan_tonic:hover{
+.hornan_tonic:hover {
     content: url(../resources/hornan_tonic_paint.png);
 }
 
+.gessi_tonic:hover {
+    content: url(../resources/gessi_tonic_paint.png);
+}
+
+.irish_coffee:hover {
+    content: url(../resources/irish_coffee_paint.png);
+}
+
+.sparkling_liquid:hover {
+    content: url(../resources/sparkling_liquid_paint.png);
+}
 
 /* Styling the paragraph and recipe section(s) */
 h3 {
@@ -263,11 +273,9 @@ h3 {
         margin-left: 30px;
     }
 }
-/* END */
 
-/* 'Netflix' styles setup
-Featuring the scrolling catalogues */
-.netflix {
+/* Behaviour of the catalogue */
+.catalogue_alignment {
     display: flex;
     flex-direction: row;
     margin-top: 3vh;
@@ -275,7 +283,6 @@ Featuring the scrolling catalogues */
     margin-left: auto;
     margin-right: auto;
 }
-/* END for Netflix*/
 
 /* Featuring each recipe page */
 @media screen and (max-width: 375px) {
@@ -325,7 +332,6 @@ Featuring the scrolling catalogues */
 a {
     margin: 2vh;
 }
-/* END */
 
 #send_recipe {
     font-family: Arial, Helvetica, sans-serif;
