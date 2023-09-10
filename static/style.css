@@ -164,8 +164,7 @@ h3 {
     border-radius: 1vh;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
-    padding: 3vh;
-    margin: 50px;
+    margin-left: 50px;
 }
 /* disabled vertical scroll */
 .catalogue_alignment {
@@ -260,19 +259,6 @@ td {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .paragraph {
-        margin-right: 180px;
-        margin-left: 180px;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .paragraph {
-        margin-top: 30px;
-        margin-left: 30px;
-    }
-}
-
 @media screen and (max-width: 375px) {
     .drink_paragraph_location {
         display: flex;
@@ -285,17 +271,18 @@ td {
     .drink_paragraph_location {
         display: flex;
         flex-direction: column;
-        /* margin-left: 45px;
-        margin-right: 45px; */
+        margin-left: 45px;
+        margin-right: 45px;
     }
 }
+
 @media screen and (min-width: 1024px) {
     .drink_paragraph_location {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
-        margin-left: 120px; /*
-        margin-right: 120px; */
+        margin-left: 120px;
+        margin-right: 120px;
     }
 }
 @media screen and (min-width: 1200px) {
@@ -303,8 +290,8 @@ td {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
-        margin-left: 120px; /*
-        margin-right: 120px; */
+        margin-left: 120px;
+        margin-right: 120px;
     }
 }
 
