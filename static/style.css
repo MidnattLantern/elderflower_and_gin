@@ -139,19 +139,19 @@ i:hover {
 }
 
 .hornan_tonic:hover {
-    content: url(../resources/hornan_tonic_paint.png);
+    content: url(../static/images/hornan_tonic_paint.png);
 }
 
 .gessi_tonic:hover {
-    content: url(../resources/gessi_tonic_paint.png);
+    content: url(../static/images/gessi_tonic_paint.png);
 }
 
 .irish_coffee:hover {
-    content: url(../resources/irish_coffee_paint.png);
+    content: url(../static/images/irish_coffee_paint.png);
 }
 
 .sparkling_liquid:hover {
-    content: url(../resources/sparkling_liquid_paint.png);
+    content: url(../static/images/sparkling_liquid_paint.png);
 }
 
 h3 {
