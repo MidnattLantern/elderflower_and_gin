@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -25,7 +25,7 @@ h3 {
     transition: all 0.4s ease;
 }
 
-.logo {
+.logo { 
     font-family: 'Kurale', serif;
     position: fixed;
     top: 2vh;
@@ -61,12 +61,6 @@ nav {
     font-family: 'Kurale', serif;
     padding: 10px;
     text-align: center;
-}
-
-iframe {
-    border: none;
-    overflow: scroll;
-    width: 100%;
 }
 
 .text_center {
@@ -106,7 +100,7 @@ i:hover {
 }
 .hoverable_catalogue_item:hover {
     box-shadow: 0 10px 18px rgb(78, 77, 83);
-}
+} 
 
 .hornan_tonic:hover {
     content: url(../static/images/hornan_tonic_paint.png);
@@ -171,7 +165,7 @@ a {
     justify-content: center;
 }
 
-input[type=email], input[type=name], input[type=text], input[type=submit], .contact_author {
+input[type=email], input[type=name], textarea[type=text], input[type=submit], .contact_author {
     width: 260px;
     height: 35px;
     padding: 5px;
@@ -188,11 +182,11 @@ input[type=submit]:hover {
     color: #ffffff;
 }
 
-input[type=text] {
+textarea[type=text] {
     height: 500px;
 }
 
-input[type=text]:focus {
+textarea[type=text]:focus {
     width: 500px;
     height: 500px;
 }
@@ -202,18 +196,19 @@ label {
     display: table;
 }
 
-/* phone(s) */ @media screen and (max-width: 768px) {
+/*
+@media screen and (max-width: 768px) {
     iframe {
         height: 460px;    
         }
     }
-    /* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
         iframe {
         height: 610px;
         }
     } 
 
-/* phone(s) */ @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 .catalogue_item {
     width: 150px;
     height: 375px;
@@ -223,7 +218,7 @@ label {
     max-height: 375px;
 }
 }
-/* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
 .catalogue_item {
     width: 200px;
     height: 500px;
@@ -234,7 +229,7 @@ label {
     }
 }
 
-/* phone(s) */ @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .hoverable_catalogue_item:hover {
         min-width: 165px;
         min-height: 412.5px;
@@ -244,7 +239,7 @@ label {
         height: 500px;
     }
 }
-    /* tablet(s) and computer(s) */ @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .hoverable_catalogue_item:hover {
         min-width: 220px;
         min-height: 550px;
@@ -258,9 +253,9 @@ label {
 @media screen and (max-width: 375px) {
     .drink_paragraph_location {
         display: flex;
-        flex-direction: column; /*
+        flex-direction: column; 
         margin-left: 45px;
-        margin-right: 45px; */
+        margin-right: 45px; 
     }
 }
 @media screen and (min-width: 375px) {
@@ -291,7 +286,7 @@ label {
     }
 }
 
-/* phone(s) */ @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .welcome_sign {
         font-size: 30px;
         width: auto;
@@ -300,7 +295,7 @@ label {
         margin-right: 5px;
     }
 }
-/* tablet(s) and computer(s) */ @media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .welcome_sign {
         font-size: 50px;
         width: 700px;
@@ -308,4 +303,4 @@ label {
         margin-left: auto;
         margin-right: auto;
     }
-}
+}*/
