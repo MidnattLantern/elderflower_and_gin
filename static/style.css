@@ -130,6 +130,11 @@ h3 {
     margin-left: 50px;
 }
 
+.text_center {
+    text-align: center;
+    text-transform: none;
+}
+
 .catalogue_alignment {
     display: flex;
     flex-direction: row;
@@ -160,8 +165,10 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.contact_styling {
-    margin: 10px;
+.submit_styling {
+    text-align: center;
+    display: flex;
+    flex: row;
     justify-content: center;
 }
 
@@ -169,9 +176,7 @@ input[type=email], input[type=name], textarea[type=text], input[type=submit], .c
     width: 260px;
     height: 35px;
     padding: 5px;
-    margin: 5px;
     box-sizing: border-box;
-    transition: width 0.4s ease-in-out;
     border-width: 3px;
     border-radius: 10px;
 }
@@ -183,20 +188,14 @@ input[type=submit]:hover {
 }
 
 textarea[type=text] {
-    height: 500px;
-}
-
-textarea[type=text]:focus {
-    width: 500px;
-    height: 500px;
+    height: 200px;
 }
 
 label {
-    padding: 10px;
+    padding: 5px;
     display: table;
 }
 
-/*
 @media screen and (max-width: 768px) {
     iframe {
         height: 460px;    
@@ -303,4 +302,4 @@ label {
         margin-left: auto;
         margin-right: auto;
     }
-}*/
+}
