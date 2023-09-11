@@ -1,27 +1,18 @@
- /* Fundamental setup */
  @import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body {
-    background-color: #ffffff;
-}
 
 h3 {
     font-family: 'Kurale', serif;
 }
 
-
-
-/* about us paragraph*/
-.about_us > p {
+.about_us>p, .contact_author_margin {
     margin-left: 15%;
     margin-right: 15%;
 }
-
-/* END for about us*/
 
 .welcome_sign {
     font-family: 'Kurale', serif;
@@ -33,13 +24,10 @@ h3 {
     margin-top: 8vh;
     transition: all 0.4s ease;
 }
-/* END for Header 1 */
 
-/* the logo home button in the top left corner */
 .logo {
     font-family: 'Kurale', serif;
     position: fixed;
-    /* Any sign, such as the welcome sign must have an margin of 4vh */
     top: 2vh;
     z-index: 99;
     font-size: 3vh;
@@ -54,10 +42,7 @@ h3 {
 .logo > a:hover {
     color: brown;
 }
-/* END for the logo */
 
-/* Name of recipe when you click the poster.
-Featuring <h1> at the catalogues.html(s) */
 .recipe_header {
     text-align: center;
     margin-top: 8vh;
@@ -65,29 +50,18 @@ Featuring <h1> at the catalogues.html(s) */
     font-size: 6vh;
     text-decoration: underline;
 }
-/* END of name */
 
-/* Header 2
-Featuring: "All Recipes", and "Find me" */
 h2 {
     font-family: 'Kurale', serif;
     margin-bottom: 2vh;
     text-align: center;
 }
-/* END for h2 style */
 
-/* navigation bar */
 nav {
     font-family: 'Kurale', serif;
     padding: 10px;
     text-align: center;
 }
-p {
-    font-family: Arial, Helvetica, sans-serif;
-}
-/* END for navigation bar */
-
-/* Enabling digital horizontal scroll bar to make the 'netflix' catalogue friendly for mouse users */
 
 iframe {
     border: none;
@@ -111,18 +85,16 @@ iframe {
     justify-content: center;
 }
 
-
 footer {
     width: 100%;
-    background-color: #DFCFBF;
+    background-color: #d36e8c;
 }
 i {
     color: black;
 }
 i:hover {
-    color: #9D5067;
+    color: #ffffff;
 }
-
 
 .catalogue_item {
     z-index: 1;
@@ -133,8 +105,6 @@ i:hover {
     transition: all 0.4s ease;
 }
 .hoverable_catalogue_item:hover {
-/*    min-width: 220px;
-    min-height: 550px; */
     box-shadow: 0 10px 18px rgb(78, 77, 83);
 }
 
@@ -160,9 +130,8 @@ h3 {
     padding-left: 5vh;
     padding-top: 8vh;
 }
+
 .paragraph {
-    border-radius: 1vh;
-    font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
     margin-left: 50px;
 }
@@ -193,16 +162,44 @@ a {
     margin: 2vh;
 }
 
-hr {
-    margin-left: 10%;
-    margin-right: 10%;
-}
 .long_text_font {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-td {
-    padding: 15px;
+.contact_styling {
+    margin: 10px;
+    justify-content: center;
+}
+
+input[type=email], input[type=name], input[type=text], input[type=submit], .contact_author {
+    width: 260px;
+    height: 35px;
+    padding: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    transition: width 0.4s ease-in-out;
+    border-width: 3px;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #d36e8c;
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+input[type=text] {
+    height: 500px;
+}
+
+input[type=text]:focus {
+    width: 500px;
+    height: 500px;
+}
+
+label {
+    padding: 10px;
+    display: table;
 }
 
 /* phone(s) */ @media screen and (max-width: 768px) {
@@ -236,7 +233,6 @@ td {
     max-height: 550px;
     }
 }
-
 
 /* phone(s) */ @media screen and (max-width: 1024px) {
     .hoverable_catalogue_item:hover {
