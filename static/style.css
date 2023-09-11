@@ -143,6 +143,7 @@ h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
 .wrap_catalogue_alignment {
     flex-wrap: wrap;
     justify-content: center;
@@ -200,10 +201,37 @@ label {
     iframe {
         height: 460px;    
         }
+        .drink_paragraph_location {
+            display: flex;
+            flex-direction: column; 
+            margin-left: 45px;
+            margin-right: 45px; 
+        }
+        .welcome_sign {
+            font-size: 30px;
+            width: auto;
+            padding: 10px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
     }
+
 @media screen and (min-width: 768px) {
         iframe {
         height: 610px;
+        }
+        .drink_paragraph_location {
+            display: flex;
+            flex-direction: column;
+            margin-left: 45px;
+            margin-right: 45px;
+        }
+        .welcome_sign {
+            font-size: 50px;
+            width: 700px;
+            padding: 30px;
+            margin-left: auto;
+            margin-right: auto;
         }
     } 
 
@@ -216,7 +244,16 @@ label {
     max-width: 150px;
     max-height: 375px;
 }
+.hoverable_catalogue_item:hover {
+    min-width: 165px;
+    min-height: 412.5px;
 }
+.hoverable_catalogue_item:not(:hover) {
+    width: 200px;
+    height: 500px;
+}
+}
+
 @media screen and (min-width: 1024px) {
 .catalogue_item {
     width: 200px;
@@ -226,19 +263,6 @@ label {
     max-width: 220px;
     max-height: 550px;
     }
-}
-
-@media screen and (max-width: 1024px) {
-    .hoverable_catalogue_item:hover {
-        min-width: 165px;
-        min-height: 412.5px;
-    }
-    .hoverable_catalogue_item:not(:hover) {
-        width: 200px;
-        height: 500px;
-    }
-}
-@media screen and (min-width: 1024px) {
     .hoverable_catalogue_item:hover {
         min-width: 220px;
         min-height: 550px;
@@ -247,26 +271,6 @@ label {
         width: 200px;
         height: 500px;
     }
-}
-
-@media screen and (max-width: 375px) {
-    .drink_paragraph_location {
-        display: flex;
-        flex-direction: column; 
-        margin-left: 45px;
-        margin-right: 45px; 
-    }
-}
-@media screen and (min-width: 375px) {
-    .drink_paragraph_location {
-        display: flex;
-        flex-direction: column;
-        margin-left: 45px;
-        margin-right: 45px;
-    }
-}
-
-@media screen and (min-width: 1024px) {
     .drink_paragraph_location {
         display: flex;
         flex-direction: row;
@@ -274,32 +278,11 @@ label {
         margin-left: 120px;
         margin-right: 120px;
     }
-}
-@media screen and (min-width: 1200px) {
     .drink_paragraph_location {
         display: flex;
         flex-direction: row;
         margin-top: 30px;
         margin-left: 120px;
         margin-right: 120px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .welcome_sign {
-        font-size: 30px;
-        width: auto;
-        padding: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .welcome_sign {
-        font-size: 50px;
-        width: 700px;
-        padding: 30px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
