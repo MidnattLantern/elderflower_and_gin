@@ -140,8 +140,6 @@ h3 {
     flex-direction: row;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .wrap_catalogue_alignment {
@@ -150,6 +148,7 @@ h3 {
 }
 
 .ingredients_div > ul {
+    width: 140px;
     font-family: 'Kurale', serif;
     text-align: left;
     align-items: center;
@@ -201,7 +200,7 @@ label {
     iframe {
         height: 460px;    
         }
-        .drink_paragraph_location {
+        .drink_page_layout {
             display: flex;
             flex-direction: column; 
             margin-left: 45px;
@@ -214,13 +213,40 @@ label {
             margin-left: 5px;
             margin-right: 5px;
         }
+        .catalogue_item {
+            width: 150px;
+            height: 375px;
+            min-width: 150px;
+            min-height: 375px;
+            max-width: 150px;
+            max-height: 375px;
+        }
+        .hoverable_catalogue_item:hover {
+            min-width: 165px;
+            min-height: 412.5px;
+        }
+        .hoverable_catalogue_item:not(:hover) {
+            width: 200px;
+            height: 500px;
+        }
+        .drink_paragraph_layout {
+            text-align: justify;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .catalogue_alignment {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
 @media screen and (min-width: 768px) {
         iframe {
         height: 610px;
         }
-        .drink_paragraph_location {
+        .drink_page_layout {
             display: flex;
             flex-direction: column;
             margin-left: 45px;
@@ -233,35 +259,86 @@ label {
             margin-left: auto;
             margin-right: auto;
         }
+        .catalogue_item {
+            width: 150px;
+            height: 375px;
+            min-width: 150px;
+            min-height: 375px;
+            max-width: 150px;
+            max-height: 375px;
+        }
+        .hoverable_catalogue_item:hover {
+            min-width: 165px;
+            min-height: 412.5px;
+        }
+        .hoverable_catalogue_item:not(:hover) {
+            width: 200px;
+            height: 500px;
+        }
+        .drink_paragraph_layout {
+            text-align: justify;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .catalogue_alignment {
+            margin-left: auto;
+            margin-right: auto;
+        }
     } 
 
-@media screen and (max-width: 1024px) {
-.catalogue_item {
-    width: 150px;
-    height: 375px;
-    min-width: 150px;
-    min-height: 375px;
-    max-width: 150px;
-    max-height: 375px;
-}
-.hoverable_catalogue_item:hover {
-    min-width: 165px;
-    min-height: 412.5px;
-}
-.hoverable_catalogue_item:not(:hover) {
-    width: 200px;
-    height: 500px;
-}
+@media screen and (min-width: 1024px) {
+    .drink_page_layout {
+        display: flex;
+        flex-direction: row; 
+        margin-left: 45px;
+        margin-right: 45px; 
+    }
+    .catalogue_item {
+        width: 150px;
+        height: 375px;
+        min-width: 150px;
+        min-height: 375px;
+        max-width: 150px;
+        max-height: 375px;
+    }
+    .hoverable_catalogue_item:hover {
+        min-width: 165px;
+        min-height: 412.5px;
+    }
+    .hoverable_catalogue_item:not(:hover) {
+        width: 200px;
+        height: 500px;
+    }
+    .drink_paragraph_layout {
+        text-align: justify;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .catalogue_alignment {
+        margin-left: auto;
+        margin-right: 0px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
-.catalogue_item {
-    width: 200px;
-    height: 500px;
-    min-width: 200px;
-    min-height: 500px;
-    max-width: 220px;
-    max-height: 550px;
+    .drink_page_layout {
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .catalogue_item {
+        width: 200px;
+        height: 500px;
+        min-width: 200px;
+        min-height: 500px;
+        max-width: 220px;
+        max-height: 550px;
     }
     .hoverable_catalogue_item:hover {
         min-width: 220px;
@@ -271,18 +348,17 @@ label {
         width: 200px;
         height: 500px;
     }
-    .drink_paragraph_location {
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px;
-        margin-left: 120px;
-        margin-right: 120px;
+    .drink_paragraph_layout {
+        text-align: justify;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 100px;
+        margin-right: auto;
+        width: 600px;
+        height: auto;
     }
-    .drink_paragraph_location {
-        display: flex;
-        flex-direction: row;
-        margin-top: 30px;
-        margin-left: 120px;
-        margin-right: 120px;
+    .catalogue_alignment {
+        margin-left: auto;
+        margin-right: 0px;
     }
 }
