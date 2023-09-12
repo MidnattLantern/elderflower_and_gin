@@ -99,13 +99,11 @@ nav>a:hover {
     font-size: 4vh;
     text-align: center;
     display: flex;
-    flex: row;
     justify-content: center;
 }
 
 footer {
     background-color: #2c2937;
-    border: solid 6E6C77 3px;
     height: 500px;
 }
 
@@ -194,7 +192,6 @@ a {
 .submit_styling {
     text-align: center;
     display: flex;
-    flex: row;
     justify-content: center;
 }
 
