@@ -198,9 +198,18 @@ a {
     justify-content: center;
 }
 
-input[type=email], input[type=name], textarea[type=text], input[type=submit], .contact_author {
+input[type=email], input[type=name], input[type=submit], .contact_author {
     width: 260px;
     height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: #FEF8F6;
+}
+textarea {
+    width: 260px;
+    height: 200px;
     padding: 5px;
     box-sizing: border-box;
     border-width: 3px;
@@ -212,10 +221,6 @@ input[type=submit]:hover {
     background-color: #C17387;
     text-decoration: underline;
     color: #FEF8F6;
-}
-
-textarea[type=text] {
-    height: 200px;
 }
 
 label {
