@@ -9,7 +9,7 @@ h3 {
     font-family: 'Kurale', serif;
 }
 
-.about_us>p, .contact_author_margin {
+.contact_author_margin {
     margin-left: 15%;
     margin-right: 15%;
 }
@@ -242,6 +242,13 @@ label {
             margin-left: auto;
             margin-right: auto;
         }
+        .about_us_width {
+            text-align: justify;
+            width: 300px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
 @media screen and (min-width: 768px) {
@@ -290,6 +297,13 @@ label {
             margin-left: auto;
             margin-right: auto;
         }
+        .about_us_width {
+            text-align: justify;
+            width: 400px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
     } 
 
 @media screen and (min-width: 1024px) {
@@ -325,6 +339,13 @@ label {
     .catalogue_alignment {
     margin-left: auto;
     margin-right: 15px;
+    }
+    .about_us_width {
+        text-align: justify;
+        width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
@@ -364,5 +385,12 @@ label {
     .catalogue_alignment {
         margin-left: auto;
         margin-right: 15px;
+    }
+    .about_us_width {
+        text-align: justify;
+        width: 600px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
