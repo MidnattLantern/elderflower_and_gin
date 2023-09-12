@@ -40,7 +40,7 @@ h3 {
     text-decoration: none;
 }
 .logo > a:hover {
-    color: brown;
+    color: #d36e8c;
 }
 
 .recipe_header {
@@ -61,6 +61,14 @@ nav {
     font-family: 'Kurale', serif;
     padding: 10px;
     text-align: center;
+}
+nav>a {
+    color: black;
+    text-decoration: none;
+}
+nav>a:hover {
+    color: #d36e8c;
+    text-decoration: underline;
 }
 
 .text_center {
@@ -249,6 +257,11 @@ label {
             margin-left: auto;
             margin-right: auto;
         }
+        hr {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
 @media screen and (min-width: 768px) {
@@ -304,6 +317,11 @@ label {
             margin-left: auto;
             margin-right: auto;
         }
+        hr {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
     } 
 
 @media screen and (min-width: 1024px) {
@@ -347,9 +365,21 @@ label {
         margin-left: auto;
         margin-right: auto;
     }
+    hr {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main_border {
+        margin-left: auto;
+        margin-right: auto;
+        width: 800px;
+        height: 100%;
+        border: solid black 1px;
+    }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
     .drink_page_layout {
         display: flex;
         flex-direction: row;
@@ -392,5 +422,17 @@ label {
         height: auto;
         margin-left: auto;
         margin-right: auto;
+    }
+    hr {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main_border {
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        height: 100%;
+        border: solid black 1px;
     }
 }
