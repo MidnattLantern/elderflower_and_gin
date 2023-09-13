@@ -312,7 +312,7 @@ label {
         }
 
         /* The off-white background appearing between the red diamond pattern */
-        .main_border {
+        .main_background {
             margin-left: auto;
             margin-right: auto;
             width: 100%;
@@ -391,7 +391,7 @@ label {
         }
 
         /* The off-white background appearing between the red diamond pattern */
-        .main_border {
+        .main_background {
             margin-left: auto;
             margin-right: auto;
             width: 100%;
@@ -448,7 +448,7 @@ label {
     }
 
     /* The off-white background appearing between the red diamond pattern */
-    .main_border {
+    .main_background {
         margin-left: auto;
         margin-right: auto;
         width: 800px;
@@ -509,7 +509,7 @@ label {
     }
 
     /* The off-white background appearing between the red diamond pattern */
-    .main_border {
+    .main_background {
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
