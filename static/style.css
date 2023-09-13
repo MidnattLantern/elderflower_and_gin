@@ -120,21 +120,24 @@ label {
     background-color: #FEF8F6;
     color: #3E3B4D;
 }
+
 .home_button > a {
     text-decoration: none;
     color: #3E3B4D;
 }
+
 .home_button > a:hover {
     color: #A2525A;
     text-decoration: underline;
 }
+
+/* width variation in media queries */
 .confirmation_page_home_button {
     font-family: 'Kurale', serif;
     font-size: 3vh;
     border: solid #3E3B4D 2px;
     border-radius: 3px;
     background-color: #FEF8F6;
-    width: 300px;
     margin-left: auto;
     margin-right: auto;
     color: #3E3B4D;
@@ -154,8 +157,8 @@ label {
 }
 
 .text_center {
-    text-align: center !important;
-    justify-content: center !important;
+    text-align: center;
+    justify-content: center;
 }
 
 .socials {
@@ -243,20 +246,18 @@ label {
     background-size: 100%;
 }
 
+/* Phone (test for Galaxy Fold) */
 @media screen and (max-width: 768px) {
-        iframe {
-            height: 460px;    
-        }
 
         .drink_page_layout {
             display: flex;
             flex-direction: column; 
-            margin-left: 45px;
-            margin-right: 45px; 
+            margin-left: 10px;
+            margin-right: auto;
         }
 
         .welcome_sign {
-            font-size: 30px;
+            font-size: 25px;
             width: auto;
             padding: 10px;
             margin-left: 5px;
@@ -264,22 +265,22 @@ label {
         }
 
         .catalogue_item {
-            width: 150px;
-            height: 375px;
-            min-width: 150px;
-            min-height: 375px;
-            max-width: 150px;
-            max-height: 375px;
+            width: 100px;
+            height: 250px;
+            min-width: 100px;
+            min-height: 250px;
+            max-width: 100px;
+            max-height: 250px;
         }
 
         .hoverable_catalogue_item:hover {
-            min-width: 165px;
-            min-height: 412.5px;
+            min-width: 125px;
+            min-height: 312.5px;
         }
 
         .hoverable_catalogue_item:not(:hover) {
-            width: 200px;
-            height: 500px;
+            width: 100px;
+            height: 250px;
         }
 
         .drink_paragraph_layout {
@@ -288,7 +289,7 @@ label {
             padding-right: 0px;
             margin-left: auto;
             margin-right: auto;
-            width: 300px;
+            width: 200px;
             height: auto;
         }
 
@@ -299,7 +300,7 @@ label {
 
         .about_us_width {
             text-align: justify;
-            width: 300px;
+            width: 200px;
             height: auto;
             margin-left: auto;
             margin-right: auto;
@@ -315,17 +316,18 @@ label {
         .main_background {
             width: 100%;
         }
+
+        .confirmation_page_home_button {
+            width: 200px;
+        }
     }
 
+    /* Standing tablet (test for iPad Mini) */
 @media screen and (min-width: 768px) {
         hr {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
-        }
-
-        iframe {
-            height: 610px;
         }
 
         .drink_page_layout {
@@ -389,8 +391,24 @@ label {
         .main_background {
             width: 100%;
         }
+
+        .confirmation_page_home_button {
+            width: 300px;
+        }
     } 
 
+        /* The off-white background appearing between the red diamond pattern. Width variation found in the media queries */
+    .main_background {
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 90vh;
+        display: flex;
+        flex-direction: column;
+        border: solid #3E3B4D 3px;
+        background-color: #e1d7db;
+    }
+
+     /* Lying tablet (test for iPad Mini) */
 @media screen and (min-width: 1024px) {
     
     .drink_page_layout {
@@ -449,6 +467,7 @@ label {
     }
 }
 
+/* Desktop (test for a 1920 * 1080 monitor) */
 @media screen and (min-width: 1200px) {
     
     .drink_page_layout {
@@ -511,15 +530,4 @@ label {
     .main_background {
         width: 1200px;
     }
-}
-
-/* The off-white background appearing between the red diamond pattern. Width variation in the media queries */
-.main_background {
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 90vh;
-    display: flex;
-    flex-direction: column;
-    border: solid #3E3B4D 3px;
-    background-color: #e1d7db;
 }
