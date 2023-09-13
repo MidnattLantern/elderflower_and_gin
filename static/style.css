@@ -32,11 +32,55 @@ nav>a:hover {
     text-decoration: underline;
 }
 
+a {
+    margin: 2vh;
+}
+
 i {
     color: #FEF8F6;
 }
 i:hover {
     color: #A2525A;
+}
+
+body {
+    background-image: url("../static/images/wallpaper.png");
+    background-attachment: fixed;
+}
+
+footer {
+    background-color: #2c2937;
+    height: 500px;
+}
+
+input[type=email], input[type=name], input[type=submit], .contact_author {
+    width: 260px;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: #FEF8F6;
+}
+textarea {
+    width: 260px;
+    height: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-width: 3px;
+    border-radius: 10px;
+    background-color: #FEF8F6;
+}
+
+input[type=submit]:hover {
+    background-color: #C17387;
+    text-decoration: underline;
+    color: #FEF8F6;
+}
+
+label {
+    padding: 5px;
+    display: table;
 }
 
 .grey_font {
@@ -52,7 +96,6 @@ i:hover {
     color:#A2525A;
 }
 
-/* index.html line 19 or nearby */
 .welcome_sign {
     font-family: 'Kurale', serif;
     border: solid #3E3B4D 6px;
@@ -66,7 +109,6 @@ i:hover {
     transition: all 0.4s ease;
 }
 
-/* all html line 14 or nearby */
 .home_button { 
     font-family: 'Kurale', serif;
     position: fixed;
@@ -126,12 +168,6 @@ i:hover {
     justify-content: center;
 }
 
-footer {
-    background-color: #2c2937;
-    height: 500px;
-}
-
-
 .catalogue_item {
     z-index: 1;
     border-radius: 10px;
@@ -159,7 +195,6 @@ footer {
 .sparkling_liquid:hover {
     content: url(../static/images/sparkling_liquid_paint.png);
 }
-
 
 .paragraph {
     text-align: justify;
@@ -193,10 +228,6 @@ footer {
     list-style-type: disc;
 }
 
-a {
-    margin: 2vh;
-}
-
 .long_text_font {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -207,35 +238,6 @@ a {
     justify-content: center;
 }
 
-input[type=email], input[type=name], input[type=submit], .contact_author {
-    width: 260px;
-    height: 35px;
-    padding: 5px;
-    box-sizing: border-box;
-    border-width: 3px;
-    border-radius: 10px;
-    background-color: #FEF8F6;
-}
-textarea {
-    width: 260px;
-    height: 200px;
-    padding: 5px;
-    box-sizing: border-box;
-    border-width: 3px;
-    border-radius: 10px;
-    background-color: #FEF8F6;
-}
-
-input[type=submit]:hover {
-    background-color: #C17387;
-    text-decoration: underline;
-    color: #FEF8F6;
-}
-
-label {
-    padding: 5px;
-    display: table;
-}
 
 .fit_image {
     background-image: url("../static/images/elderflower_host.png");
@@ -243,18 +245,12 @@ label {
     background-size: 100%;
 }
 
-body {
-    background-image: url("../static/images/wallpaper.png");
-    background-attachment: fixed;
-}
 
 .confirmation_page_layout {
     height: 200px;
     padding-top: 10px;
     justify-content: center;
 }
-
-
 
 @media screen and (max-width: 768px) {
     iframe {
@@ -314,26 +310,36 @@ body {
             margin-left: auto;
             margin-right: auto;
         }
+
+        /* The off-white background appearing between the red diamond pattern */
         .main_border {
             margin-left: auto;
             margin-right: auto;
             width: 100%;
             height: 100%;
             border: solid #3E3B4D 1px;
-            background-color: #e1d7db;
+            background-color: #dbd1d5;
         }
     }
 
 @media screen and (min-width: 768px) {
-        iframe {
-        height: 610px;
+        hr {
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
         }
+
+        iframe {
+            height: 610px;
+        }
+
         .drink_page_layout {
             display: flex;
             flex-direction: column;
             margin-left: 45px;
             margin-right: 45px;
         }
+
         .welcome_sign {
             font-size: 50px;
             width: 700px;
@@ -341,6 +347,7 @@ body {
             margin-left: auto;
             margin-right: auto;
         }
+
         .catalogue_item {
             width: 150px;
             height: 375px;
@@ -349,14 +356,17 @@ body {
             max-width: 150px;
             max-height: 375px;
         }
+
         .hoverable_catalogue_item:hover {
             min-width: 165px;
             min-height: 412.5px;
         }
+
         .hoverable_catalogue_item:not(:hover) {
             width: 200px;
             height: 500px;
         }
+
         .drink_paragraph_layout {
             text-align: justify;
             padding-left: 0px;
@@ -366,10 +376,12 @@ body {
             width: 600px;
             height: auto;
         }
+
         .catalogue_alignment {
             margin-left: auto;
             margin-right: auto;
         }
+
         .about_us_width {
             text-align: justify;
             width: 400px;
@@ -377,11 +389,8 @@ body {
             margin-left: auto;
             margin-right: auto;
         }
-        hr {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+
+        /* The off-white background appearing between the red diamond pattern */
         .main_border {
             margin-left: auto;
             margin-right: auto;
@@ -437,6 +446,8 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* The off-white background appearing between the red diamond pattern */
     .main_border {
         margin-left: auto;
         margin-right: auto;
@@ -496,6 +507,8 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+    /* The off-white background appearing between the red diamond pattern */
     .main_border {
         margin-left: auto;
         margin-right: auto;
