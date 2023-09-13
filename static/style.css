@@ -22,6 +22,7 @@ h3 {
     font-family: 'Kurale', serif;
 }
 
+/* index.html line 19 */
 .welcome_sign {
     font-family: 'Kurale', serif;
     border: solid #3E3B4D 6px;
@@ -35,6 +36,7 @@ h3 {
     transition: all 0.4s ease;
 }
 
+/* all html line 14 */
 .logo { 
     font-family: 'Kurale', serif;
     position: fixed;
@@ -414,10 +416,9 @@ body {
     }
     .drink_paragraph_layout {
         text-align: justify;
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 50px;
     }
     .catalogue_alignment {
     margin-left: auto;
