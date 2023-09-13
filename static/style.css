@@ -253,15 +253,17 @@ label {
 }
 
 @media screen and (max-width: 768px) {
-    iframe {
-        height: 460px;    
+        iframe {
+            height: 460px;    
         }
+
         .drink_page_layout {
             display: flex;
             flex-direction: column; 
             margin-left: 45px;
             margin-right: 45px; 
         }
+
         .welcome_sign {
             font-size: 30px;
             width: auto;
@@ -269,6 +271,7 @@ label {
             margin-left: 5px;
             margin-right: 5px;
         }
+
         .catalogue_item {
             width: 150px;
             height: 375px;
@@ -277,14 +280,17 @@ label {
             max-width: 150px;
             max-height: 375px;
         }
+
         .hoverable_catalogue_item:hover {
             min-width: 165px;
             min-height: 412.5px;
         }
+
         .hoverable_catalogue_item:not(:hover) {
             width: 200px;
             height: 500px;
         }
+
         .drink_paragraph_layout {
             text-align: justify;
             padding-left: 0px;
@@ -294,10 +300,12 @@ label {
             width: 300px;
             height: auto;
         }
+
         .catalogue_alignment {
             margin-left: auto;
             margin-right: auto;
         }
+
         .about_us_width {
             text-align: justify;
             width: 300px;
@@ -305,14 +313,14 @@ label {
             margin-left: auto;
             margin-right: auto;
         }
+        
         hr {
             width: 100%;
             margin-left: auto;
             margin-right: auto;
         }
-
-        /* The off-white background appearing between the red diamond pattern */
-        .main_background {
+        
+        .main_background { /* The off-white background appearing between the red diamond pattern */
             margin-left: auto;
             margin-right: auto;
             width: 100%;
@@ -390,8 +398,7 @@ label {
             margin-right: auto;
         }
 
-        /* The off-white background appearing between the red diamond pattern */
-        .main_background {
+        .main_background { /* The off-white background appearing between the red diamond pattern */
             margin-left: auto;
             margin-right: auto;
             width: 100%;
@@ -447,8 +454,7 @@ label {
         margin-right: auto;
     }
 
-    /* The off-white background appearing between the red diamond pattern */
-    .main_background {
+    .main_background { /* The off-white background appearing between the red diamond pattern */
         margin-left: auto;
         margin-right: auto;
         width: 800px;
@@ -508,8 +514,7 @@ label {
         margin-right: auto;
     }
 
-    /* The off-white background appearing between the red diamond pattern */
-    .main_background {
+    .main_background { /* The off-white background appearing between the red diamond pattern */
         margin-left: auto;
         margin-right: auto;
         width: 1200px;
