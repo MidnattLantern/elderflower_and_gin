@@ -23,12 +23,12 @@ Welcome Sign:
 - First thing that greets you in clear high contrast text.
 - Greeting text, and a custom artwork of the mascot Elderflower.
 Desktop:
-![desktop](../elderflower_and_gin/static/images/desktop_home.png)
+![desktop](..static/images/desktop_home.png)
 Tablet:
-![tablet](../elderflower_and_gin/static/images/lying_tablet_home.png)
-![tablet](../elderflower_and_gin/static/images/standing_tablet_home.png)
+![tablet](..static/images/lying_tablet_home.png)
+![tablet](..static/images/standing_tablet_home.png)
 Phone:
-![phone](../elderflower_and_gin/static/images/phone_home.png)
+![phone](..static/images/phone_home.png)
 
 Navigation Bar:
 - Sends you to three sections of the home page: the "Cocktail Catalogue", the "About Us", and the "Contact Author" sections
