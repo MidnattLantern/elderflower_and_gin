@@ -23,7 +23,7 @@ Welcome Sign:
 - First thing that greets you in clear high contrast text.
 - Greeting text, and a custom artwork of the mascot Elderflower.
 Desktop:
-![desktop](../elderflower_and_gin/static/images/readme_images/desktop_home.png)
+![desktop](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/desktop_home.png)
 Tablet:
 ![tablet](../elderflower_and_gin/static/images/readme_images/lying_tablet_home.png)
 ![tablet](../elderflower_and_gin/static/images/readme_images/standing_tablet_home.png)
