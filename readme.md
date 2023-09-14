@@ -39,6 +39,7 @@ Recipe sectiion(s):
 - Both categories feature posters with clear text of the name of the drink.
 - By default the posters blend in with the background in soft monochrome grey.
 - Upon hovering, the poster change appearance to full colour, high contrast, bigger scale, and box shadow.
+![hoverable_poster] ()
 - Due to limited timeframe, only Hornan Tonic has a unique design. The others share a generic design.
 - Clicking a recipe poster will redirect the visitor to another html page. Each recipe have their own html.
 
