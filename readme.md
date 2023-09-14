@@ -1,5 +1,8 @@
 # Elderflower and Gin
 
+##User Stories:
+Users who visit Elderflower and Gin seek ideas and inspiration for drinks and cocktails. They desire a unique and enjoyable experience that sets this site apart from others. Easy and efficient recipe searches are also important, without the need to read lengthy paragraphs. If users find a recipe that interests them, they can expect to learn more about it later. Saving recipes is possible through email submission, and users have the ability to share their thoughts through the “contact me” section.
+
 ##Features:
 Home Button:
 - Present on all pages at a fixed position at the top left.
