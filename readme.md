@@ -74,7 +74,7 @@ Home Button:
 - Present on all pages at a fixed position at the top left.
 - On all but the home page it says "Back to Home Page".
 - On the home page it says "Back to Top".
-![home_button_demostration]()
+![home_button_demostration](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/home_button_demostration.png)
 
 Welcome Sign:
 - First thing that greets you in clear high contrast text.
@@ -94,8 +94,8 @@ Navigation Bar:
 Recipe section(s):
 - PNG posters with consistent design.
 - So far there are two categories: All and non-alcoholic.
-![all_category]()
-![no_alcohol_category]()
+![all_category](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/all_recipe_category_demostration.png)
+![no_alcohol_category](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/no_alcohol_category_demostration.png)
 - Both categories feature posters with clear text of the name of the drink.
 - By default, the posters blend in with the background in soft monochrome grey.
 - Upon hovering, the poster changes its appearance to full colour, high contrast, bigger scale, and box-shadow.
@@ -123,7 +123,7 @@ Footer:
 - a text and social media icons evenly centred
 - Hover over a social media logo changes its appearance to another colour
 - Clicking the social media logo sends the visitor to that website in a new browser tab
-![footer]()
+![footer](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/footer_demostration.png)
 
 Recipe page:
 - Each recipe has its recipe page
@@ -143,7 +143,7 @@ Recipe page:
 
 Recipe page request recipe:
 - The visitor can fill out an email form
-![request]()
+![request](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/recipe_request_demostration.png)
 - Upon clicking the submit button, they'll be redirected to a confirmation page
 ![confirmation](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/confirmation_demostration.png)
 
@@ -157,7 +157,7 @@ The confirmation page:
 Red diamond pattern:
 - Appears the left and right edges if the user is on a larger device.
 - Although it has no practical purpose, it contributes a lot to the emotional experience for users on a larger device.
-![red_diamond]()
+![red_diamond](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/red_diamond_demostration.png)
 
 Future features:
 ------
