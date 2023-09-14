@@ -5,11 +5,14 @@ Elderflower and Gin is a catalogue of recipes for the cocktails enthusiast, look
 
 User Stories:
 ------
-- The users who visit Elderflower and Gin seek ideas and inspiration for drinks and cocktails.
-- The users can expect a unique and enjoyable experience that sets this site apart from other recipe sites.
-- The users can expect finding ideas to be a straightforward experience, without the need to read lengthy paragraphs before finding the essential information.
-- If the user finds a recipe that interests them, they can expect to learn more about it later.
-- Saving recipes is possible through email submission, and the user can expect to share their thoughts through the “contact me” section.
+- As a visitor who is a cocktail enthusiast looking for inspiration, I expect that Elderflower and Gin will let me find ideas and inspiration.
+- As a visitor who is a cocktail enthusiast, I expect an unique and enjoyable experience that sets this site apart from other recipe sites.
+- As a visitor who is a cocktail enthusiast, I expect that finding ideas is as straightforward and instant as possible, without the need to read lengthy paragraphs before finding the essential information.
+- As a visitor who is a cocktail enthusiast, if I find a recipe that interests me, I expect to learn more about it later.
+- As a visitor who is a cocktail enthusiast, I expect that I'm able to get a recipe sent to my email by submitting an email address in a field, as well as getting cleat confirmation that my request went trough.
+- As a scout or business person who is looking for recruiting someone with confidence in web development or graphic design, I expect that I'm able to easily reach the author behind Elderflower and Gin by submitting my email, my name and some text in a message field.
+- As a critic, I expect that I'm able to give feedback about a recipe by submitting my email, my name, and some text in a text field  where I can write my opinions on a drink, or to suggest a new drink.
+- As a scout or business person who is looking for recruiting someone with confidence in graphic design, I expect that I'm able to find the author on other platforms, such as Instagram or ArtStation.
 
 Features:
 ------
