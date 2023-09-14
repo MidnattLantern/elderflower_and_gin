@@ -89,6 +89,7 @@ The confirmation page:
 - paragraph letting the user know that they'll get a reply
 - The home button appears again but is slightly bigger and underlined.
 - The original home button is still at the top left for consistency
+![confirmation_page](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/confirmation_demostration.png)
 
 Red diamond pattern:
 - Appears the left and right edges if the user is on a big screen.
