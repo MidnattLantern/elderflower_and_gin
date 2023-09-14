@@ -19,14 +19,19 @@ h3 {
     padding-top: 8vh;
 }
 
+/* General navigation style */
 nav {
     font-family: 'Kurale', serif;
     padding: 10px;
     text-align: center;
 }
+
+/* General navigation style */
 nav>a {
     text-decoration: none;
 }
+
+/* General navigation style */
 nav>a:hover {
     color: #A2525A;
     text-decoration: underline;
@@ -39,10 +44,12 @@ a {
 i {
     color: #FEF8F6;
 }
+
 i:hover {
     color: #A2525A;
 }
 
+/* Red diamond pattern showing up at large screens */
 body {
     background-image: url("../static/images/wallpaper.png");
     background-attachment: fixed;
@@ -53,6 +60,7 @@ footer {
     height: 150px;
 }
 
+/* General style for submit form */
 input[type=email], input[type=name], input[type=submit], .contact_author {
     width: 260px;
     height: 35px;
@@ -62,6 +70,8 @@ input[type=email], input[type=name], input[type=submit], .contact_author {
     border-radius: 10px;
     background-color: #FEF8F6;
 }
+
+/* General style for submit form */
 textarea {
     width: 260px;
     height: 200px;
@@ -72,6 +82,7 @@ textarea {
     background-color: #FEF8F6;
 }
 
+/* General style for submit form */
 input[type=submit]:hover {
     background-color: #C17387;
     text-decoration: underline;
@@ -86,12 +97,15 @@ label {
 .grey_font {
     color: #6E6C77;
 }
+
 .black_font, nav>a {
     color: #3E3B4D;
 }
+
 .white_font {
     color: #FEF8F6;
 }
+
 .theme_font {
     color:#A2525A;
 }
@@ -109,6 +123,7 @@ label {
     transition: all 0.4s ease;
 }
 
+/* "Back to Home Page" and "Back to Top" will ALWAYS appear the same anywhere, at the same position */
 .home_button { 
     font-family: 'Kurale', serif;
     position: fixed;
@@ -121,11 +136,13 @@ label {
     color: #3E3B4D;
 }
 
+/* "Back to Home Page" and "Back to Top" when not hovering */
 .home_button > a {
     text-decoration: none;
     color: #3E3B4D;
 }
 
+/* "Back to Home Page" and "Back to Top" when hovering */
 .home_button > a:hover {
     color: #A2525A;
     text-decoration: underline;
@@ -143,6 +160,7 @@ label {
     color: #3E3B4D;
     text-decoration: none;
 }
+
 .confirmation_page_home_button:hover {
     text-decoration: underline;
     color: #A2525A;
@@ -161,7 +179,7 @@ label {
     justify-content: center;
 }
 
-.socials {
+.socials_icon_style {
     list-style-type: none;
     letter-spacing: 2vh;
     font-size: 4vh;
@@ -455,6 +473,7 @@ label {
         margin-left: auto;
         margin-right: auto;
     }
+
     hr {
         width: 800px;
         margin-left: auto;
