@@ -1,6 +1,8 @@
 Elderflower and Gin
 ======
 
+Elderflower and Gin is a catalogue of recipes for the cocktails enthusiast, looking for ideas and inspiration for drinks. Recipes are presented in an aesthetically exciting way, making the visitation experience last after the visit.
+
 User Stories:
 ------
 - The users who visit Elderflower and Gin seek ideas and inspiration for drinks and cocktails.
@@ -20,6 +22,13 @@ Home Button:
 Welcome Sign:
 - First thing that greets you in clear high contrast text.
 - Greeting text, and a custom artwork of the mascot Elderflower.
+Desktop:
+![desktop](../elderflower_and_gin/static/images/desktop_home.png)
+Tablet:
+![tablet](../elderflower_and_gin/static/images/lying_tablet_home.png)
+![tablet](../elderflower_and_gin/static/images/standing_tablet_home.png)
+Phone:
+![phone](../elderflower_and_gin/static/images/phone_home.png)
 
 Navigation Bar:
 - Sends you to three sections of the home page: the "Cocktail Catalogue", the "About Us", and the "Contact Author" sections
