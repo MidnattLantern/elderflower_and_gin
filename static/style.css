@@ -200,25 +200,24 @@ label {
     box-shadow: 0 10px 18px #6E6C77;
 } 
 
+/* Poster in full colour */
 .hornan_tonic:hover {
     content: url(../static/images/hornan_tonic_paint.png);
 }
 
+/* Poster in full colour */
 .gessi_tonic:hover {
     content: url(../static/images/gessi_tonic_paint.png);
 }
 
+/* Poster in full colour */
 .irish_coffee:hover {
     content: url(../static/images/irish_coffee_paint.png);
 }
 
+/* Poster in full colour */
 .sparkling_liquid:hover {
     content: url(../static/images/sparkling_liquid_paint.png);
-}
-
-.paragraph {
-    text-align: justify;
-    margin-left: 50px;
 }
 
 .text_center {
@@ -248,7 +247,7 @@ label {
     list-style-type: disc;
 }
 
-.long_text_font {
+.paragraph_font {
     font-family: Arial, Helvetica, sans-serif;
 }
 
