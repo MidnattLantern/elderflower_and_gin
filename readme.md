@@ -32,6 +32,7 @@ Welcome Sign:
 
 Navigation Bar:
 - Sends you to three sections of the home page: the "Cocktail Catalogue", the "About Us", and the "Contact Author" sections
+![navigation_bar](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/navigation_bar_demostration.png)
 
 Recipe sectiion(s):
 - PNG posters with consistent design.
@@ -39,12 +40,13 @@ Recipe sectiion(s):
 - Both categories feature posters with clear text of the name of the drink.
 - By default the posters blend in with the background in soft monochrome grey.
 - Upon hovering, the poster change appearance to full colour, high contrast, bigger scale, and box shadow.
-![hoverable_poster] ()
+![hoverable_poster](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/hoverable_demostration.png)
 - Due to limited timeframe, only Hornan Tonic has a unique design. The others share a generic design.
 - Clicking a recipe poster will redirect the visitor to another html page. Each recipe have their own html.
 
 About:
 - Paragraph about a backstory behind this website, and what to expect
+![about](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/about_us_demostratino.png)
 
 Contact:
 - The visitor can interact by filling four boxes:
@@ -54,6 +56,7 @@ Contact:
 - Write text
 - Submit
 - When submitted, the visitor will be redirected to a confitmation page as a seperate html.
+![contact](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/contact_demostration.png)
 
 Footer:
 - Appearing in all pages
@@ -69,6 +72,13 @@ Recipe page:
 - Next or underneath the poster and ingredients section is a paragraph
 - The paragraph appeats either to the right or underneath the poster and recipe, depending on screen size
 - The paragraph tell a story about the drink, what it's like to experience drinking, and suggested volume for each ingredient
+- Desktop:
+![desktop](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/desktop_recipe.png)
+- Tablet:
+![tablet](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/lying_tablet_recipe.png)
+![tablet](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/standing_tablet_recipe.png)
+- Phone:
+![phone](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/phone_recipe.png)
 
 Recipe page request recipe:
 - The visitor can fill an email form
