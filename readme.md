@@ -124,7 +124,14 @@ Credits:
 
 Wireframes:
 ------
-Visualisation for front-end appearance was sketched with art software.
+- Visualisation for front-end appearance was sketched with art software.
+- The following images are wireframes to support as visual references during the early phase:
+![wireframe1](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/wireframe1.png)
+![wireframe2](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/wireframe2.png)
+![wireframe3](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/wireframe3.png)
+![wireframe4](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/wireframe4.png)
+- This one is a general guide to what artistic direction to follow for the characters (painted by Alma as well)
+![wireframe5](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/static/images/readme_images/wireframe5.jpg)
 
 Technology:
 ------
