@@ -95,6 +95,29 @@ Red diamond pattern:
 - Appears the left and right edges if the user is on a big screen.
 - The warm hue and diamond pattern wrap the user inside a warm and cosy experience, similar to that of a café.
 
+Future features:
+------
+- Submitting feedback for now doesn't do anything. This could be updated so that each letter will be stored somewhere somehow so that the developers can read every letter that's been sent.
+- Requesting recipe won't actually send a recipe to the email the user provided. This could be updated so that the recipe is sent to their provided email.
+- Unique poster artwork design for Gessi Tonic, Irish Coffee, and Sparkling Liquid.
+- More recipes
+- More categories
+- Filter section by the top, such as filtering out alcoholic drinks, or to only show sweet drinks
+- Alcohol label to specify what drinks and ingredients contains alcohol
+
+Typography and colour scheme:
+------
+Typography:
+- Two fonts are being used: Kurale, and Arial.
+- Kurale is the theme font. It appears for shorter text.
+- Arial is the paragraph font. Its minimalist design and lack of stimulation makes it easy to read for a lenght of time. It's quite boring however, so it's used sparingly.
+
+Colour scheme:
+- The theme colour is red.
+- The white and black are actually off-white, and dark blue. This creates an impression of 'down to earth modesty'.
+- Each poster have their own colour scheme. What colour(s) depends on the desired impression.
+- Because each poster's colour scheme is so diverse, every poster are grey in the home page until hovering, this is to prevent clashing user experience.
+
 Testing:
 ------
 Diversity of screen sizes:
