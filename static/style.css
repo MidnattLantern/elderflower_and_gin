@@ -120,6 +120,7 @@ label {
     border-style: double;
     text-align: center;
     margin-top: 8vh;
+    /* smooth transition between rescaling window */
     transition: all 0.4s ease;
 }
 
@@ -194,6 +195,7 @@ label {
     justify-content: center;
     align-items: center;
     display: flex;
+    /* smooth transition between rescaling window */
     transition: all 0.4s ease;
 }
 .hoverable_catalogue_item:hover {
@@ -225,6 +227,7 @@ label {
     text-transform: none;
 }
 
+/* Giving the drink poster at its recipe page room to breathe */
 .catalogue_alignment {
     display: flex;
     flex-direction: row;
@@ -232,11 +235,13 @@ label {
     margin-bottom: 3vh;
 }
 
+/* Each drinks poster appear at the center of the screen*/
 .wrap_catalogue_alignment {
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Appearance for the ingredients list */
 .ingredients_div > ul {
     width: 140px;
     font-family: 'Kurale', serif;
@@ -258,7 +263,7 @@ label {
     justify-content: center;
 }
 
-/* Elderflower, the mascot with green hair */
+/* The mascot with green hair at the welcome and confirmation page*/
 .mascot_elderflower {
     background-image: url("../static/images/elderflower_host.png");
     background-position: center;
@@ -268,78 +273,84 @@ label {
 /* Phone (test for Galaxy Fold) */
 @media screen and (max-width: 768px) {
 
-        .drink_page_layout {
-            display: flex;
-            flex-direction: column; 
-            margin-left: 10px;
-            margin-right: auto;
-        }
-
-        .welcome_sign {
-            font-size: 25px;
-            width: auto;
-            padding: 10px;
-            margin-left: 5px;
-            margin-right: 5px;
-        }
-
-        .catalogue_item {
-            width: 100px;
-            height: 250px;
-            min-width: 100px;
-            min-height: 250px;
-            max-width: 100px;
-            max-height: 250px;
-        }
-
-        .hoverable_catalogue_item:hover {
-            min-width: 125px;
-            min-height: 312.5px;
-        }
-
-        .hoverable_catalogue_item:not(:hover) {
-            width: 100px;
-            height: 250px;
-        }
-
-        .drink_paragraph_layout {
-            text-align: justify;
-            padding-left: 0px;
-            padding-right: 0px;
-            margin-left: auto;
-            margin-right: auto;
-            width: 200px;
-            height: auto;
-        }
-
-        .catalogue_alignment {
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .about_us_width {
-            text-align: justify;
-            width: 200px;
-            height: auto;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        hr {
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        
-        /* The off-white background appearing between the red diamond pattern */
-        .main_background {
-            width: 100%;
-        }
-
-        .confirmation_page_home_button {
-            width: 200px;
-        }
+    .drink_page_layout {
+        display: flex;
+        flex-direction: column; 
+        margin-left: 10px;
+        margin-right: auto;
     }
+
+    .welcome_sign {
+        font-size: 25px;
+        width: auto;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    /* cocktail poster */
+    .catalogue_item {
+        width: 100px;
+        height: 250px;
+        min-width: 100px;
+        min-height: 250px;
+        max-width: 100px;
+        max-height: 250px;
+    }
+
+    /* cocktail poster in full colour */
+    .hoverable_catalogue_item:hover {
+        min-width: 125px;
+        min-height: 312.5px;
+    }
+
+    /* cocktail poster */
+    .hoverable_catalogue_item:not(:hover) {
+        width: 100px;
+        height: 250px;
+    }
+
+    /* Ensure that the story about the drink appear either next to, or below the poster and ingredient */
+    .drink_paragraph_layout {
+        text-align: justify;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: auto;
+    }
+
+    /* Giving the drink poster at its recipe page room to breathe */
+    .catalogue_alignment {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about_us_width {
+        text-align: justify;
+        width: 200px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Preventing interference with the red diamond pattern*/
+    hr {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* The off-white background appearing between the red diamond pattern */
+    .main_background {
+        width: 100%;
+    }
+
+    .confirmation_page_home_button {
+        width: 200px;
+    }
+}
 
     /* Standing tablet (test for iPad Mini) */
 @media screen and (min-width: 768px) {
@@ -364,6 +375,7 @@ label {
             margin-right: auto;
         }
 
+        /* cocktail poster */
         .catalogue_item {
             width: 150px;
             height: 375px;
@@ -373,16 +385,19 @@ label {
             max-height: 375px;
         }
 
+        /* cocktail poster in full colour */
         .hoverable_catalogue_item:hover {
             min-width: 165px;
             min-height: 412.5px;
         }
 
+        /* cocktail poster */
         .hoverable_catalogue_item:not(:hover) {
             width: 200px;
             height: 500px;
         }
 
+        /* Ensure that the story about the drink appear either next to, or below the poster and ingredient */
         .drink_paragraph_layout {
             text-align: justify;
             padding-left: 0px;
@@ -393,6 +408,7 @@ label {
             height: auto;
         }
 
+        /* Giving the drink poster at its recipe page room to breathe */
         .catalogue_alignment {
             margin-left: auto;
             margin-right: auto;
@@ -429,62 +445,69 @@ label {
 
      /* Lying tablet (test for iPad Mini) */
 @media screen and (min-width: 1024px) {
-    
-    .drink_page_layout {
-        display: flex;
-        flex-direction: row; 
-        margin-left: 45px;
-        margin-right: 45px; 
-    }
+        
+        .drink_page_layout {
+            display: flex;
+            flex-direction: row; 
+            margin-left: 45px;
+            margin-right: 45px; 
+        }
 
-    .catalogue_item {
-        width: 150px;
-        height: 375px;
-        min-width: 150px;
-        min-height: 375px;
-        max-width: 150px;
-        max-height: 375px;
-    }
-    .hoverable_catalogue_item:hover {
-        min-width: 165px;
-        min-height: 412.5px;
-    }
+        /* cocktail poster */
+        .catalogue_item {
+            width: 150px;
+            height: 375px;
+            min-width: 150px;
+            min-height: 375px;
+            max-width: 150px;
+            max-height: 375px;
+        }
 
-    .hoverable_catalogue_item:not(:hover) {
-        width: 200px;
-        height: 500px;
-    }
+        /* cocktail poster in full colour */
+        .hoverable_catalogue_item:hover {
+            min-width: 165px;
+            min-height: 412.5px;
+        }
 
-    .drink_paragraph_layout {
-        text-align: justify;
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 50px;
-    }
+        /* cocktail poster */
+        .hoverable_catalogue_item:not(:hover) {
+            width: 200px;
+            height: 500px;
+        }
 
-    .catalogue_alignment {
-    margin-left: auto;
-    margin-right: 15px;
-    }
+        /* Ensure that the story about the drink appear either next to, or below the poster and ingredient */
+        .drink_paragraph_layout {
+            text-align: justify;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-top: 50px;
+        }
 
-    .about_us_width {
-        text-align: justify;
-        width: 400px;
-        height: auto;
+        /* Giving the drink poster at its recipe page room to breathe */
+        .catalogue_alignment {
         margin-left: auto;
-        margin-right: auto;
-    }
+        margin-right: 15px;
+        }
 
-    hr {
-        width: 800px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+        .about_us_width {
+            text-align: justify;
+            width: 400px;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
 
-    /* The off-white background appearing between the red diamond pattern */
-    .main_background {
-        width: 800px;
-    }
+        /* Preventing interference with the red diamond pattern*/
+        hr {
+            width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* The off-white background appearing between the red diamond pattern */
+        .main_background {
+            width: 800px;
+        }
 }
 
 /* Desktop (test for a 1920 * 1080 monitor) */
@@ -498,6 +521,7 @@ label {
         margin-right: 120px;
     }
 
+    /* cocktail poster */
     .catalogue_item {
         width: 200px;
         height: 500px;
@@ -507,16 +531,19 @@ label {
         max-height: 550px;
     }
 
+    /* cocktail poster in full colour */
     .hoverable_catalogue_item:hover {
         min-width: 220px;
         min-height: 550px;
-        }
+    }
 
+    /* cocktail poster */
     .hoverable_catalogue_item:not(:hover) {
         width: 200px;
         height: 500px;
     }
 
+    /* Ensure that the story about the drink appear either next to, or below the poster and ingredient */
     .drink_paragraph_layout {
         text-align: justify;
         padding-left: 0px;
@@ -527,6 +554,7 @@ label {
         height: auto;
     }
 
+    /* Giving the drink poster at its recipe page room to breathe */
     .catalogue_alignment {
         margin-left: auto;
         margin-right: 15px;
@@ -540,6 +568,7 @@ label {
         margin-right: auto;
     }
 
+    /* Preventing interference with the red diamond pattern*/
     hr {
         width: 1200px;
         margin-left: auto;
