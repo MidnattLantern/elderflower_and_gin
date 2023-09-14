@@ -1,15 +1,19 @@
-# Elderflower and Gin
+<h1> Elderflower and Gin </h1>
 
-##User Stories:
-Users who visit Elderflower and Gin seek ideas and inspiration for drinks and cocktails. They desire a unique and enjoyable experience that sets this site apart from others. Easy and efficient recipe searches are also important, without the need to read lengthy paragraphs. If users find a recipe that interests them, they can expect to learn more about it later. Saving recipes is possible through email submission, and users have the ability to share their thoughts through the “contact me” section.
+<h2> User Stories: </h2>
+- The users who visit Elderflower and Gin seek ideas and inspiration for drinks and cocktails.
+- The users can expect a unique and enjoyable experience that sets this site apart from other recipe sites.
+- The users can expect finding ideas to be an straight-forward experience, without the need to read lengthy paragraphs before finding the essential information.
+- If the user find a recipe that interests them, they can expect to learn more about it later.
+- Saving recipes is possible through email submission, and the user can expect to share their thoughts through the “contact me” section.
 
-##Features:
+<h2> Features: </h2>
 Home Button:
 - Present on all pages at a fixed position at the top left.
 - On all but the home page it says "Back to Home Page".
 - On the home page it says to "Back to Top".
 
-##Welcome Sign:
+<h2> Welcome Sign: <h2>
 - First thing that greets you in clear high contrast text.
 - Greeting text, and a custom artwork of the mascot Elderflower.
 
