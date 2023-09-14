@@ -124,7 +124,7 @@ label {
     transition: all 0.4s ease;
 }
 
-/* "Back to Home Page" and "Back to Top" will ALWAYS appear the same anywhere, at the same position */
+/* "Back to Home Page" and "Back to Top" will always appear the same anywhere, at the same position */
 .home_button { 
     font-family: 'Kurale', serif;
     position: fixed;
@@ -137,13 +137,13 @@ label {
     color: #3E3B4D;
 }
 
-/* "Back to Home Page" and "Back to Top" when not hovering */
+/* "Back to Home Page" and "Back to Top" appearance when not hovering */
 .home_button > a {
     text-decoration: none;
     color: #3E3B4D;
 }
 
-/* "Back to Home Page" and "Back to Top" when hovering */
+/* "Back to Home Page" and "Back to Top" appearance when hovering */
 .home_button > a:hover {
     color: #A2525A;
     text-decoration: underline;
