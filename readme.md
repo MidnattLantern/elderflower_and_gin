@@ -6,13 +6,13 @@ Elderflower and Gin is a catalogue of recipes for the cocktails enthusiast, look
 User Stories:
 ------
 - As a visitor who is a cocktail enthusiast looking for inspiration, I expect that Elderflower and Gin will let me find ideas and inspiration.
-- As a visitor who is a cocktail enthusiast, I expect an unique and enjoyable experience that sets this site apart from other recipe sites.
+- As a visitor who is a cocktail enthusiast, I expect a unique and enjoyable experience that sets this site apart from other recipe sites.
 - As a visitor who is a cocktail enthusiast, I expect that finding ideas is as straightforward and instant as possible, without the need to read lengthy paragraphs before finding the essential information.
 - As a visitor who is a cocktail enthusiast, if I find a recipe that interests me, I expect to learn more about it later.
-- As a visitor who is a cocktail enthusiast, I expect that I'm able to get a recipe sent to my email by submitting an email address in a field, as well as getting cleat confirmation that my request went trough.
-- As a scout or business person who is looking for recruiting someone with confidence in web development or graphic design, I expect that I'm able to easily reach the author behind Elderflower and Gin by submitting my email, my name and some text in a message field.
-- As a critic, I expect that I'm able to give feedback about a recipe by submitting my email, my name, and some text in a text field  where I can write my opinions on a drink, or to suggest a new drink.
-- As a scout or business person who is looking for recruiting someone with confidence in graphic design, I expect that I'm able to find the author on other platforms, such as Instagram or ArtStation.
+- As a visitor who is a cocktail enthusiast, I expect that I'm able to get a recipe sent to my email by submitting an email address in a field, as well as getting clear confirmation that my request went through.
+- As a scout or business person who is looking to recruit someone with confidence in web development or graphic design, I expect that I'm able to easily reach the author behind Elderflower and Gin by submitting my email, my name and some text in a message field.
+- As a critic, I expect that I'm able to give feedback about a recipe by submitting my email, my name, and some text in a text field where I can write my opinions on a drink, or suggest a new drink.
+- As a scout or business person who is looking to recruit someone with confidence in graphic design, I expect that I'm able to find the author on other platforms, such as Instagram or ArtStation.
 - As a visitor with certain preferences, I expect to find a category that excludes any traces of alcohol.
 
 Wireframes:
@@ -30,6 +30,14 @@ Testing:
 ------
 Diversity of screen sizes:
 - Using media queries, the appearance varies from device to device in a manner that's appropriate for such diversity.
+- Here's an example for the home page:
+- Desktop:
+![desktop](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/desktop_home.png)
+- Tablet:
+![tablet](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/lying_tablet_home.png)
+![tablet](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/standing_tablet_home.png)
+- Phone:
+![phone](https://raw.githubusercontent.com/MidnattLantern/elderflower_and_gin/main/readme_images/phone_home.png)
 
 Validator testing:
 - No errors were returned when passing through the official W3C validator
@@ -62,9 +70,9 @@ GitHub deployment:
 - The live link can be found here - https://midnattlantern.github.io/elderflower_and_gin/
 
 MS Visual Studio Code deployment:
-- Here's how to deploy fom MS Visual Studio Code:
+- Here's how to deploy from MS Visual Studio Code:
 - make sure you've signed in,
-- on the source controll section, click “Initialize Repository”,
+- on the source control section, click “Initialize Repository”,
 - For any changes, open the terminal, type "git add .", then "git commit -m """, finally "git push".
 
 Features:
@@ -162,31 +170,31 @@ Red diamond pattern:
 Future features:
 ------
 - Submitting feedback for now doesn't do anything. This could be updated so that each letter will be stored for the developer(s) to read.
-- Requesting recipe won't actually send a recipe to the email the user provided. This could be updated so that the recipe is sent to their provided email.
+- Requesting a recipe won't send a recipe to the email the user provided. This could be updated so that the recipe is sent to their provided email.
 - Unique poster artwork design for Gessi Tonic, Irish Coffee, and Sparkling Liquid.
-- More recipes
+- More Recipes
 - More categories
-- Filter section by the top, such as filtering out alcoholic drinks, or to only show sweet drinks
-- Alcohol label to specify what drinks and ingredients contains alcohol
+- Filter section by the top, such as filtering out alcoholic drinks, or only show sweet drinks
+- Alcohol label to specify what drinks and ingredients contain alcohol
 
 Typography and colour scheme:
 ------
 Typography:
 - Two fonts are being used: Kurale, and Arial.
 - Kurale is the theme font. It appears for shorter text.
-- Arial is the paragraph font. Its minimalist design and lack of stimulation makes it easy and light to read for a lenght of time. It's quite boring however, so it's used sparingly.
+- Arial is the paragraph font. Its minimalist design and lack of stimulation make it easy and light to read for a length of time. It's quite boring, however, so it's used sparingly.
 
 Colour scheme:
 - The theme colour is red.
-- The white and black are actually off-white, and dark blue. This creates an impression of 'down to earth modesty'.
-- Each poster have their own colour scheme. What colour(s) depends on the desired impression.
-- Because each poster's colour scheme is so diverse, every poster are grey in the home page until hovering, this is to prevent clashing user experience.
+- The white and black are off-white, and dark blue. This creates an impression of 'down to earth modesty'.
+- Each poster has its colour scheme. What colour(s) depends on the desired impression?
+- Because each poster's colour scheme is so diverse, every poster is grey on the home page until hovering, this is to prevent clashing user experience.
 
 Technology:
 ------
 - Everything was developed and designed with a computer running macOS.
 - Illustrations and other visual elements were designed using a Wacom tablet.
-- All code (except for font awesome and google fonts) was written on Microsoft Visual Studio Code by Alma.
+- All code (except for font awesome and Google fonts) was written on Microsoft Visual Studio Code by Alma.
 - Elderflower and Gin is hosted by GitHub.
 - All code was tested, debugged, and simulated through Microsoft Edge.
 - Media queries were tested for the following through Microsoft Edge: "Galaxy fold 280x653", "iPhone 12 Pro 390x844", and "iPad Mini 768x1024".
