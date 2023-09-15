@@ -202,6 +202,7 @@ Technology:
 - The theme font "Kurals" was borrowed from Google Fonts.
 - Social media icons were borrowed from Font Awesome.
 - Graphics and wireframes were designed using Clip Studio Paint, Affinity Photo 2, and Affinity Designer 2, by Alma.
+- Grammar checking was done using Grammarly.
 
 Deployment:
 ------
